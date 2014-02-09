@@ -1,0 +1,130 @@
+name:Minecraftia Village
+weight:10
+radius:80
+carriesraid:false
+biome:plains
+biome:forest
+biome:swampland
+biome:taiga
+biome:ice plains
+
+//extraBiomes mod
+biome:autumn woods
+biome:birch forest
+biome:forested hills
+biome:green hills
+biome:green swamplands
+biome:meadow
+biome:mini jungle
+biome:pine forest
+biome:rainforest
+biome:savanna
+biome:shrubland
+biome:snow forest
+biome:tundra
+biome:woodlands
+
+//biomes o plenty mod
+biome:bamboo forest
+biome:bayou
+biome:birch forest
+biome:boreal forest
+biome:brushland
+biome:cherry blossom grove
+biome:coniferous forest
+biome:deciduous forest
+biome:fen
+biome:frost forest
+biome:grove
+biome:hot springs
+biome:lush swamp
+biome:maple woods
+biome:mystic grove
+biome:orchard
+biome:origin valley
+biome:rainforest
+biome:redwood forest
+biome:seasonal forest
+biome:snowy coniferous forest
+biome:spruce woods
+biome:temperate rainforest
+biome:thicket
+biome:timber
+biome:tropical rainforest
+biome:tropics
+biome:wetland
+biome:woodland
+biome:chaparral
+biome:field
+biome:grassland
+biome:heathland
+biome:meadow
+biome:outback
+biome:pasture
+biome:prairie
+biome:savanna
+biome:scrubland
+biome:shrubland
+
+//path materials
+pathmaterial:pathdirt
+pathmaterial:pathgravel
+pathmaterial:pathslabs
+
+//starting buildings:
+centre:townhall
+start:butcher
+start:church
+start:forge
+start:housecarrot
+start:housepotato
+start:housewheat
+start:housecarrotlarge
+start:housepotatolarge
+start:housewheatlarge
+start:housetiny1
+start:housetiny2
+start:housetiny3
+start:housetiny4
+start:lamppost
+start:library
+start:well
+
+//player buildings
+player:playerplotlarge
+player:playerhouselarge
+
+//to be built in priority
+
+//to be built after the core ones
+
+//never to be built
+never:desert_townhall
+never:desert_butcher
+never:desert_church
+never:desert_forge
+never:desert_housecarrot
+never:desert_housecarrotlarge
+never:desert_housepotato
+never:desert_housepotatolarge
+never:desert_housewheat
+never:desert_housewheatlarge
+never:desert_housetiny1
+never:desert_housetiny2
+never:desert_housetiny3
+never:desert_housetiny4
+never:desert_library
+never:desert_well
+never:desert_playerplotlarge
+never:desert_playerhouselarge
+never:pigman_butcher
+never:pigman_church
+never:pigman_forge
+never:pigman_housecarrot
+never:pigman_housecarrotlarge
+never:pigman_housetiny1
+never:pigman_housetiny2
+never:pigman_housetiny3
+never:pigman_housetiny4
+never:pigman_library
+never:pigman_townhall

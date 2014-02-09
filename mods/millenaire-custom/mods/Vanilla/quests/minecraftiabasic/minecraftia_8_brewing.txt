@@ -1,0 +1,45 @@
+minreputation:64*64
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/priest,requiredtag=minecraftia_priest
+forbiddenplayertag:minecraftia_brewing1
+requiredplayertag:minecraftia_nether_complete
+
+step:new
+label_english:Double, double, toil and trouble
+description_english:Hello my good friend, $name. You have gained much knowledge in your time here. Now, do you remember the witches I spoke about some time ago and their evil potions. Well, I think you must learn how to make some good helpful potions for yourself. To do this you will need some equipment - a brewing stand, a cauldron, and some glass bottles. We'll take the brewing stand first. It is comprised of three cobblestone along the bottom row of your workbench and a single blaze rod in the middle. Now the cauldron is made by placing seven iron ingots in a 'U' shape in the workbench. Finally, we have glass bottles which are made by placing glass in a 'V' shape in your workbench. Please make a brewing stand, a cauldron, and some glass bottles.
+description_success_english:Happy adventuring!
+description_refuse_english:It is up to you, adventurer.
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_brewing1
+
+step:new
+label_english:Fire burn and cauldron bubble
+description_english:Do you have the equipment I have asked for?
+description_success_english:Good. Now to use a brewing stand to brew potions you will place bottles with water or another potion along the bottom and the ingredient you want to distill in the top. The cauldron will hold water for you to fill up your bottles with. Now, all helpful potions start off with distilling nether wart into water. Nether wart is a plant that only grows natively in The Nether on soul sand. See if you can obtain some soul sand, nether wart, and brew an awkward potion.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_brewing1
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_brewing2
+requiredgood:brewing_stand,1
+requiredgood:cauldron,1
+requiredgood:bottle,3
+rewardgood:brewing_stand,1
+rewardgood:cauldron,1
+rewardgood:bottle,3
+rewardreputation:32
+
+step:new
+label_english:Mix it up
+description_english:Have you brewed an awkward potion?
+description_success_english:Good. This is only the first step. On it's own an awkward potion will have no effect. To make a potion with any effect you must distill one of eight ingredients into your awkward potion. A golden carrot, which is made by placing a carrot in the center of a ring of gold nuggets, will make a potion of night vision. Magma cream, made by combining slimeballs with blaze powder, will create a potion of fire resistance. Sugar will distill into a potion of swiftness speed. A glistering melon, will give you a potion of healing. A spider eye will distill into a potion of poison - this is not recommended, by the way. A ghast tear will distill into a potion of regeneration. A fermented spider eye, made by combining a mushroom, sugar, and a spider eye, will distill into a potion of weakness - also not recommended. And finally, blaze powder will distill into a potion of strength. Most of these potions can then be modified again by distilling redstone, glowstone dust, or a fermented spider eye into them. Redstone will increase the duration, glowstone dust will increase the potency, and a fermented spider eye will corrupt it, changing the potion into a new one. Experiment with different combinations and see what you can get. I will see you in the again in the future.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_brewing2
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_brewing_complete
+requiredgood:akwardpotion,1
+rewardgood:akwardpotion,1
+rewardreputation:256

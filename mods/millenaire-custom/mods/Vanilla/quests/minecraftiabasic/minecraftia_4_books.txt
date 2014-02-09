@@ -1,0 +1,79 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/librarianfemale,type=minecraftia/librarianmale,requiredtag=minecraftia_librarian
+forbiddenplayertag:minecraftia_books1
+requiredplayertag:minecraftia_farming_advanced_complete
+
+step:new
+label_english:The academics
+description_english:Hi there. I'm $startvillager_villagername$, a librarian here. I don't think we've met yet. And now we have. I think it's time for you to start getting some academic knowledge. We should start with making paper. I have heard that you recently found out about sugar cane. Well, there is another use for sugar cane and that is to make paper. To make paper just lay out a row of sugar cane in your workbench. Go find some sugar cane and bring me back some paper.
+description_success_english:I'll be waiting.
+description_refuse_english:Stay in school.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_books1
+
+step:new
+label_english:Press the fibers
+description_english:Have you made some paper yet?
+description_success_english:Ahh, you have successfully made some paper! Now, what can we do with this paper? Let's start with making books. To make a book place a piece of leather in the bottom left corner of your workbench and then three pieces of paper right around it. Could you make me a book now?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_books1
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_books2
+requiredgood:paper,3
+rewardgood:paper,3
+rewardreputation:32
+
+step:new
+label_english:Read a book
+description_english:Do you have a book for me?
+description_success_english:Books are necessary for your continued study. What to do with books? Make a bookshelf of course! To make a bookshelf place a row of wooden planks along the top of your workbench, a row of wooden planks along the bottom, and finally a row of books through the middle. Do this now and bring to me a bookshelf.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_books2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_books3
+requiredgood:book,1
+rewardgood:book,1
+rewardreputation:32
+
+step:new
+label_english:Put it on the shelf
+description_english:Did you craft a bookshelf?
+description_success_english:Bookshelves will give your home an air of the learned. Now in order to talk about our next project we first need to talk about squid. Squid are creatures that swim around in the ocean and have tentacles. Gentle by nature they won't attack you. However, they posses a precious commodity and that is ink. Once you have ink you can make a book and quill for recording your exploits in writing. To make a book and quill simply place an ink sac in the bottom left of your workbench, a feather directly above it, and lastly a book to it's right. Please go find some squid and bring back a book and quill.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_books3
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_books4
+requiredgood:bookshelves,1
+rewardgood:bookshelves,1
+rewardreputation:32
+
+step:new
+label_english:This ink was made for writing
+description_english:Do you have a book and quill to show me?
+description_success_english:Quite. Now you can use this to write all kinds of things down. Just hold it in your hand, pop it open, and start writing. Won't you write me a story please?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_books4
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_books5
+requiredgood:bookandquill,1
+rewardgood:bookandquill,1
+rewardreputation:32
+
+step:new
+label_english:Storytime
+description_english:How's that novel coming along?
+description_success_english:Oh, thank you so much. It does get a bit boring sometimes and now I'll have a nice book to read. Come and see me again after you've learned a bit more from the other villagers.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_books5
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_books_complete
+requiredgood:written_book,1
+rewardreputation:64

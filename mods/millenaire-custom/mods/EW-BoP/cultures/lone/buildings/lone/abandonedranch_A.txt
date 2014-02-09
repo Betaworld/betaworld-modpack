@@ -1,0 +1,1 @@
+native:Abandoned Ranch;name_en:Abandoned Ranch;around:3;startLevel:-1;orientation:3;width:16;length:14;startingGood:stick,1,5,15;startingGood:woodhoe,.9,1,1;startingGood:steelhoe,.5,1,1;startingGood:diamondhoe,.03,1,1;startingGood:string,.7,1,5;startingGood:stoneshovel,.5,1,1;startingGood:lead,0.9,1,2

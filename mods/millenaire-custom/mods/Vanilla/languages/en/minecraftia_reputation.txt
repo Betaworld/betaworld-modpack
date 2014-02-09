@@ -1,0 +1,10 @@
+0;Stranger;Another adventurer. Come and go like the wind.
+4*64;Known Face;Oh, you survived. Well then welcome to our village.
+16*64;Regular visitor;Welcome, $name! We would be willing to trade with you.
+64*64;Favourite Trader;The things you bring to trade sustain our village.
+2*64*64;Friend of the village;You are trusted here. Come stay with us.
+8*64*64;One of us;We should make you the chief of the village.
+32*64*64;Natural leader;$name, we will folow you from the Nether to The End!
+-64;Nuisance;You are liked about as much as a zombie.
+-4*64;Unpleasant outsider;Go hug a Creeper!
+-16*64;Public enemy;Get out of our village and never return!

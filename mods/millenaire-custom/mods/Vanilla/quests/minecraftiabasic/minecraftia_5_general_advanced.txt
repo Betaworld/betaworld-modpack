@@ -1,0 +1,185 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/chiefpartner,requiredtag=minecraftia_chiefpartner
+forbiddenplayertag:minecraftia_general_advanced1
+requiredplayertag:minecraftia_farming_advanced_complete
+requiredplayertag:minecraftia_armor_and_weapons_complete
+requiredplayertag:minecraftia_books_complete
+requiredplayertag:minecraftia_ores_complete
+
+step:new
+label_english:To dye for
+description_english:Welcome back. Are you ready to learn about some more ways to beautify your home? Good. I would like to explain dying today. There are various materials that can be used as dyes. Let's start with the simple ones. Cocoa beans can be used as brown dye and ink sacs for black. To dye a piece of wool, just place it in your workbench with the colored dye you want. Can you dye some brown and black wool and bring it to me please?
+description_success_english:Dying wool is an art.
+description_refuse_english:Not interested? Fine by me.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced1
+
+step:new
+label_english:Is it chocolate?
+description_english:Have you dyed any wool brown yet?
+description_success_english:Good, you're first colored wool. You can use this for making all kinds of excellent designs. To help with this let's move on to our next colors, yellow and red. Yellow dye is made from the yellow flowers you see dotting the landscape. Just place them in your workbench and you can crush them to make dye. Red dye is made the same way as yellow, only with the red flowers. Please bring me some yellow and red wool.
+description_refuse_english:Dying wool is an art.
+steprequiredplayertag:minecraftia_general_advanced1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced2
+requiredgood:wool_brown,1
+requiredgood:wool_black,1
+rewardgood:wool_brown,1
+rewardgood:wool_black,1
+rewardreputation:32
+
+step:new
+label_english:Ketchup and Mustard
+description_english:Do you have the red and yellow wool?
+description_success_english:Good. Now let's move on to green. Green dye is made by burning cactus in your furnace. Bring me some green wool.
+description_refuse_english:Dying wool is an art.
+steprequiredplayertag:minecraftia_general_advanced2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced3
+requiredgood:wool_red,1
+requiredgood:wool_yellow,1
+rewardgood:wool_red,1
+rewardgood:wool_yellow,1
+rewardreputation:32
+
+step:new
+label_english:Not easy being green
+description_english:Have you some green wool?
+description_success_english:Good, on to blue. So like brown and black, you can just use lapis lazuli as blue dye. Go make some blue wool now.
+description_refuse_english:Dying wool is an art.
+steprequiredplayertag:minecraftia_general_advanced3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced4
+requiredgood:wool_green,1
+rewardgood:wool_green,1
+rewardreputation:32
+
+step:new
+label_english:Blue his house
+description_english:Do you have some blue wool for me?
+description_success_english:Good. Now before we move on I must tell you how to make white dye, even though you probably don't want to dye anything white. White dye is simply bone meal. That's it. Now let's move on to the more complex dyes. All complex dyes are made by mixing two dyes in your workbench. Orange is red and yellow, cyan is green and blue, purple is red and blue, gray is black and white, light blue is blue and white, pink is red and white, and finally lime is green and white. Please bring me some wool of each color.
+description_refuse_english:Dying wool is an art.
+steprequiredplayertag:minecraftia_general_advanced4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced5
+requiredgood:wool_blue,1
+rewardgood:wool_blue,1
+rewardreputation:32
+
+step:new
+label_english:Double rainbow
+description_english:Do you have wool of all the colors I asked?
+description_success_english:Very good. We are almost done with dyes. There are just two more colors. Magenta is made with purple and pink dye. Finally, light gray is made with gray and white. Please make some magenta and light gray wool.
+description_refuse_english:Signs are useful, but I guess you don't think so.
+steprequiredplayertag:minecraftia_general_advanced5
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced6
+requiredgood:wool_orange,1
+requiredgood:wool_cyan,1
+requiredgood:wool_purple,1
+requiredgood:wool_gray,1
+requiredgood:wool_lightblue,1
+requiredgood:wool_pink,1
+requiredgood:wool_limegreen,1
+rewardgood:wool_orange,1
+rewardgood:wool_cyan,1
+rewardgood:wool_purple,1
+rewardgood:wool_gray,1
+rewardgood:wool_lightblue,1
+rewardgood:wool_pink,1
+rewardgood:wool_limegreen,1
+rewardreputation:32
+
+step:new
+label_english:The third degree
+description_english:Do you have the magenta and light gray wool?
+description_success_english:Good. Now there are other things we can do with dyes. You can make carpet for a nice floor by combine two units of the same color wool together. You can also dye hardened clay by placing some dye in the center of your workbench and eight pieces of hardened clay all around it. I won't ask you to make these though, let's continue. Last tip with dyes. You can use dyes directly on sheep and get colored sheep. Now for some more home decorating advice. Let's start with stone bricks, sandstone, smooth sandstone, and chiseled sandstone. Let's just go through these quick. Stone bricks are made by placing four stone in a square in your workbench. Sandstone is made the same way only with sand instead of stone. Combining sandstone in this same way in your workbench will create smooth sandstone. Finally, taking sandstone slabs and placing two, one above the other in your workbench you can make chiseled sandstone. Make some of each of these and bring them to me. 
+description_refuse_english:Tired of crafting yet?
+steprequiredplayertag:minecraftia_general_advanced6
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced7
+requiredgood:wool_magenta,1
+requiredgood:wool_lightgray,1
+rewardgood:wool_magenta,1
+rewardgood:wool_lightgray,1
+rewardreputation:32
+
+step:new
+label_english:Sandcastles
+description_english:How goes the sand crafting?
+description_success_english:Good to see you've done it. Now let's add some more accents to your home. Iron bars add a nice little touch. Theya are created by placing one row of iron ingots along the bottom of your workbench and one row in the middle of your workbench. Please bring me some iron bars.
+description_refuse_english:Very well then.
+steprequiredplayertag:minecraftia_general_advanced7
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced8
+requiredgood:sandstone,1
+requiredgood:stonebrick,4
+requiredgood:smooth_sandstone,4
+requiredgood:chiseled_sandstone,1
+rewardgood:sandstone,1
+rewardgood:stonebrick,4
+rewardgood:smooth_sandstone,4
+rewardgood:chiseled_sandstone,1
+rewardreputation:32
+
+step:new
+label_english:The big house
+description_english:Did you make those iron bars?
+description_success_english:Excellent. Note that iron bars are not like fences. They wont keep monsters out nor your animals in. Next we have flower pots, which you can plant flowers in. Flower pots are made by placing three bricks in a 'V' in your workbench. Make me a flower pot please.
+description_refuse_english:Whatever suits your fancy.
+steprequiredplayertag:minecraftia_general_advanced8
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced9
+requiredgood:iron_bars,16
+rewardgood:iron_bars,16
+rewardreputation:32
+
+step:new
+label_english:A window planter
+description_english:Have you a flower pot?
+description_success_english:Now your flowers will have a place, won't that just brighten up your house? Let's move on to jack-o-lanterns. Jack-o-lanterns are made by combining a pumpkin and a torch in your workbench. Won't you bring me a jack-o-lantern?
+description_refuse_english:As you will.
+steprequiredplayertag:minecraftia_general_advanced9
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_advanced10
+requiredgood:flower_pot,1
+rewardgood:flower_pot,1
+rewardreputation:32
+
+step:new
+label_english:Jack be quick
+description_english:Did you make a jack-o-lantern?
+description_success_english:The nice thing about jack-o-lanterns is that pumpkin protects the torch from water so you can use them for light under the ocean. Now let's get fancy. We'll make a jukebox. A jukebox is made by placing wooden planks in a ring around your workbench, just like a chest, but you place a diamond in the center. Try this now.
+description_refuse_english:Well if that's your decision then.
+steprequiredplayertag:minecraftia_general_advanced10
+villager:startvillager
+duration:4096
+setplayertagsuccess:minecraftia_general_advanced11
+requiredgood:jack_o_lantern,1
+rewardgood:jack_o_lantern,1
+rewardreputation:32
+
+step:new
+label_english:Play that funky music
+description_english:Have you crafted a jukebox?
+description_success_english:Excellent. Now, how do you play music with it? Well, in dungeons you will sometimes find music discs, but I have heard that creepers carry them but only if a skeleton destroys them. Who knew creepers were a fan of music? Anyway, we'll meet again sometime.
+description_refuse_english:Music is the joy of life.
+steprequiredplayertag:minecraftia_general_advanced11
+villager:startvillager
+duration:4096
+setplayertagsuccess:minecraftia_general_advanced_complete
+requiredgood:jukebox,1
+rewardgood:jukebox,1
+rewardreputation:128

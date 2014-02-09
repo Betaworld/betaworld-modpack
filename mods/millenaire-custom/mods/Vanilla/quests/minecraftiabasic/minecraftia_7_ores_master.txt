@@ -1,0 +1,73 @@
+minreputation:64*64
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/blacksmith,requiredtag=minecraftia_blacksmith
+forbiddenplayertag:minecraftia_ores_master1
+requiredplayertag:minecraftia_tools_advanced_complete
+requiredplayertag:minecraftia_cooking_complete
+requiredplayertag:minecraftia_ores_complete
+requiredplayertag:minecraftia_ores_advanced_complete
+requiredplayertag:minecraftia_nether_complete
+
+step:new
+label_english:Black like thier hearts
+description_english:Hello again, $name. I hear you have been learning about that acursed Nether. Well, I might as well teach you about some of the materials you will find there. The most prevalant material in The Nether is netherrack. It's like the dirt or stone of our world. Netherrack has the unique property of being able to burn indefinitely if set on fire. It can also be smelted to form nether brick. Please bring me four nether brick.
+description_success_english:Thanks! Don't die out there!
+description_refuse_english:Suit yourself.
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_ores_master1
+
+step:new
+label_english:A brick of darkness
+description_english:Have you smelted some nether brick?
+description_success_english:Good. Now let's combine them into something we can build with. In your workbench, like regular bricks, place four nether brick in a square. These will compress into a block of nether brick. Please bring me some blocks of nether brick.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_ores_master1
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_ores_master2
+requiredgood:nether_brick_item,4
+rewardgood:nether_brick_item,4
+rewardreputation:32
+
+step:new
+label_english:Laying a wall to the dark
+description_english:Do you have a block of nether bricks?
+description_success_english:Good. Now you can make stairs, fences, and slabs out of blocks of nether bricks. Another material that you will find is nether quartz ore. Nether quartz ore can be mined for nether quartz, a substance that can interact with redstone. Ask a librarian about it. Instead I am going to show you some other things that can be done with it. If you take four pieces of nether quartz, and arrange them in a square on your workbench, you can compress them into a block of quartz. Please bring me some blocks of quartz.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_ores_master2
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_ores_master3
+requiredgood:nether_brick_block,1
+rewardgood:nether_brick_block,1
+rewardreputation:32
+
+step:new
+label_english:A gift of quartz
+description_english:Have you created a block of quartz?
+description_success_english:Good. Now you can craft these into slabs and stairs as normal, but there is more we can do with this. Once you have some slabs, placing one on top of the other in your workbench will produce chiseled quartz. Now if you place a full block of quartz, one on top of the other in the workbench, you can make a quartz pillar. Please bring me some chiseled quartz and some quartz pillars.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_ores_master2
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_ores_master3
+requiredgood:quartz_block,5
+rewardgood:quartz_block,5
+rewardreputation:32
+
+step:new
+label_english:Designs for a king
+description_english:Did you make some chiseled quartz and quartz pillars?
+description_success_english:Good. I believe this will look astonishing when used for building. Well, I must say I'm impressed. You are now a master of all ores that I know of. Good luck to you, $name!
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_ores_master3
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_ores_master_complete
+requiredgood:quartz_chiseled,1
+requiredgood:quartz_pillar_vertical,1
+rewardgood:quartz_chiseled,1
+rewardgood:quartz_pillar_vertical,1
+rewardreputation:256

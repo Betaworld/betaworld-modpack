@@ -1,0 +1,161 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/librarianfemale,type=minecraftia/librarianmale,requiredtag=minecraftia_librarian
+forbiddenplayertag:minecraftia_machines_advanced1
+requiredplayertag:minecraftia_ores_complete
+requiredplayertag:minecraftia_books_complete
+requiredplayertag:minecraftia_armor_and_weapons_complete
+requiredplayertag:minecraftia_general_complete
+requiredplayertag:minecraftia_machines_complete
+
+step:new
+label_english:Laying the signal
+description_english:Hello again, $name. Let's get into the more advanced machines but first we need some background. Now we're going to talk about laying redstone and making redstone circuits to power a multitude of devices. You can place redstone directly on the ground to form wires to carry it's charge long distances. But by itself it won't generate a charge. So let's learn about all the different methods of delivering a charge to redstone wire. To generate a charge you will need one of the following items - buttons, pressure plates, levers, redstone torches, tripwire hooks, and weighted pressure plates. Let's make all of these now. A button is the simplest and it is crafted by just placing a bit of stone or wooden planks in your workbench. Buttons can be placed on walls and when pressed will generate a charge. Pressure plates are made by placing two pieces of stone or wooden planks next to each other in the workbench. Pressure plates can be placed on the ground and generate a charge when stepped on. Levers are crafted by placing a stick above a piece of cobblestone in your workbench. Levers can be placed on a wall or ground and will generate a charge as long as they are flipped, unlike buttons and pressure plates which just generate a brief charge. Redstone torches will also create a constant charge. They are made by placing a piece of redstone on top of a stick in your workbench, like a normal torch. Next we have the tripwire hook. To use tripwire hooks you will need two of them placed in a straight line from each other and connected with string. They send out a charge when someone walks through and breaks the string. To make a tripwire hook place an iron ingot, a stick, and a wooden plank, top to bottom in a column in your workbench. Lastly the weighted pressure plates are much like regular pressure plates except only items dropped on them will activate them. They are also made the same except using either iron or gold ingots. Please make a wooden button, a wooden pressure plate, a lever, a redstone torch, two tripwire hooks, and finally an iron weighted pressure plate for me.
+description_success_english:I will see you once you have completed this task.
+description_refuse_english:You'll be back.
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_machines_advanced1
+
+step:new
+label_english:Sending a signal
+description_english:Did you craft all of the different switches I asked?
+description_success_english:Good. Now you can create all kinds of circuts and traps. I would just like to take a moment to mention that doors can be powered to open and close with a redstone charge, however iron doors can only be opened with a redstone charge. Now, the charge of redstone wire only lasts for about sixteen meters. To make the signal go further you can use a redstone repeater. To make a repeater place three stone in the bottom row of your workbench, then a redstone torch on each side, with a piece of redstone in the center. Please make a redstone repeater.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced1
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_machines_advanced2
+requiredgood:wooden_button,1
+requiredgood:wooden_pressure_plate,1
+requiredgood:lever,1
+requiredgood:redstone_torch,1
+requiredgood:tripwire_hook,2
+requiredgood:heavy_pressure_plate,1
+rewardgood:wooden_button,1
+rewardgood:wooden_pressure_plate,1
+rewardgood:lever,1
+rewardgood:redstone_torch,1
+rewardgood:tripwire_hook,2
+rewardgood:heavy_pressure_plate,1
+rewardreputation:32
+
+step:new
+label_english:Repeating the signal
+description_english:Have you made a redstone repeater?
+description_success_english:Good. Now let's make some different kinds of rails that generate redstone signals and are powered by redstone signals, detector rails and powered rails. Detector rails will generate a redstone signal when a laden minecart runs over it. A detector rail is made by placing one column of iron ingots on the left of your workbench, one on the right, a stone pressure plate in the center, and finally some redstone in the bottom middle. A powered rail will propel a minecart forward if it is powered with a redstone signal. To make a powered rail place a column of gold ingots on the left of your workbench, a column of gold ingots on the right, a stick in the center, and a piece of redstone in the bottom middle. Could you make me some detector and powered rails?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced2
+villager:startvillager
+duration:4096
+setplayertagsuccess:minecraftia_machines_advanced3
+requiredgood:redstone_repeater,1
+rewardgood:redstone_repeater,1
+rewardreputation:32
+
+step:new
+label_english:Riding the rails
+description_english:Did you make some detector and powered rails?
+description_success_english:Good. On to some devices that can be powered by redstone signals. The note block is the first of these. When a note block receives a restone signal it will play a note. By putting many of these in series you can make music. To make a note block place wooden planks in a ring around your workbench and a piece of redstone in the center. Go ahead and make a note block now.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_machines_advanced4
+requiredgood:detector_rail,6
+requiredgood:powered_rail,6
+rewardgood:detector_rail,6
+rewardgood:powered_rail,6
+rewardreputation:32
+
+step:new
+label_english:Ringing a bell
+description_english:Have you crafted a note block?
+description_success_english:Excellent. Now you can make all kinds of music. Next we have a dispenser. A dispenser will use items as if you had used them. So it will fire arrows or dump buckets of water or lava. To make a dispenser place cobblestone in an 'n' shape inyour workbench, with a bow in the center and a piece of redstone below it. Please make a dispenser.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_machines_advanced5
+requiredgood:note_block,1
+rewardgood:note_block,1
+rewardreputation:32
+
+step:new
+label_english:Dispensing justice
+description_english:Did you make a dispenser?
+description_success_english:Good. Dispensers are useful for making traps. Now we have the piston. When supplied with a redstone charge, a piston will push another piece of solid material. Sometimes this isn't all that helpful though. Building on a piston is the sticky piston. A sticky piston will push material, but it will also pull that material back in place, which tends to be far more useful. To make the piston place a row of wooden planks across the top of your workbench, two pieces of cobblestone on the left side, two cobblestone on the right side, an iron ingot in the center, and a piece of redstone in the bottom middle. To make it into a sticky piston you'll need a slimeball. Can you make me a sticky piston?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced5
+villager:startvillager
+duration:4096
+setplayertagsuccess:minecraftia_machines_advanced6
+requiredgood:dispenser,1
+rewardgood:dispenser,1
+rewardreputation:32
+
+step:new
+label_english:Move it into place
+description_english:How's that sticky piston coming?
+description_success_english:Good. I'm sure you will find many uses for pistons and sticky pistons. Now we have the trapped chest. While a trapped chest doesn't inherently have any trap attached to it, it does generate a redstone signal when opened, most often used to set off a trap. A trapped chest is made by placing a regular chest in the middle of your workbench and a tripwire hook directly to the left. Please make a trapped chest.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced6
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_machines_advanced7
+requiredgood:sticky_piston,1
+rewardgood:sticky_piston,1
+rewardreputation:32
+
+step:new
+label_english:To hold your valuables
+description_english:Did you craft a trapped chest?
+description_success_english:Good. Next up is a hopper. A hopper will take items placed into it and transfer them to a container below it. This could be a chest or a furnace or some other container device. A hopper will also take items from a container placed above it, like a chest or the output of a furnace. If placed on the side of a furnace it will place suitable items in the fuel slot. A hopper can be turned off by giving it a redstone signal. Hoppers can also be placed in minecarts the same as chests, furnaces, and TNT. To make a hopper, place a chest in the middle of your workbench, an iron ingot in the top left, middle left, top right, middle right, and bottom middle. Please bring me a hopper.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced7
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_machines_advanced8
+requiredgood:trapped_chest,1
+rewardgood:trapped_chest,1
+rewardreputation:32
+
+step:new
+label_english:Succ-U-Bus
+description_english:Do you have a hopper for me?
+description_success_english:Good. Our next device is a dropper. When given a redstone signal, a dropper will drop an item from inside of it as if you had dropped it on the ground. To make a dropper, place cobblestone in an 'n' in your workbench and a piece of redstone in the bottom middle. Try this now.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced8
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_machines_advanced9
+requiredgood:hopper,1
+rewardgood:hopper,1
+rewardreputation:32
+
+step:new
+label_english:Droppin' plates
+description_english:Have you crafted a dropper?
+description_success_english:Good to hear. One last thing before I let you go. Activator rails. An activator rail will put out a redstone signal only when a minecart with TNT or a hopper goes over them. To make an activator rail place one column of iron ingots on the left side of your workbench and another column of iron on the right side. In the middle column, place a stick in the top and bottom, and a redstone torch in the very center. Please make some activator rails.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced9
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_machines_advanced10
+requiredgood:dropper,1
+rewardgood:dropper,1
+rewardreputation:32
+
+step:new
+label_english:You have the power!
+description_english:Do you have some activator rails?
+description_success_english:Job well done. I have nothing more for you right now. Until next time!
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_advanced10
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_machines_advanced_complete
+requiredgood:activator_rail,6
+rewardgood:activator_rail,6
+rewardreputation:128

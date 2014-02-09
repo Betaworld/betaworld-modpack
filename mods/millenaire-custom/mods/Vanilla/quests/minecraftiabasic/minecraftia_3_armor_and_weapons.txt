@@ -1,0 +1,106 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/blacksmith,requiredtag=minecraftia_blacksmith
+forbiddenplayertag:minecraftia_armor_and_weapons1
+requiredplayertag:minecraftia_farming_complete
+requiredplayertag:minecraftia_livestock_complete
+
+step:new
+label_english:They go bump in the night
+description_english:I'm sure you've noticed by now that it is not safe at night. That's when the monsters come out. So let's talk a little bit about the monsters and how you can protect yourself from them. Let's start with zombies. Zombies are slow and like brains, specifically, yours. Anything they find lying on the ground they will pick up and attempt to beat you with it until you are dead so they can get at your brains. They only come out at night or lurk in dark caves. They will burn in the daylight, but seem to have figured out that jumping in water or wearing something on your head will protect them from that. Killing a zombie will give you their rotten flesh, which you can eat in a pinch, but it will poison you. They also may still have some things they had in life on them, such as carrots, iron, potatos, tools, weapons, or armor. That's it for zombies. Now for skeletons. Like zombies, they only come out at night or lurk in dark caves, burn in the daylight, and have found protection from it the same way. The one key difference about skeletons, despite their lack of brains, is that they use bows and arrows. Best to either stay at a distance or charge in fast. When a skeleton is destroyed you can grab his bones and some of those arrows they were using. You may also be able to take their bows and armor, if not in too bad of shape. Next up, spiders. As with the previous two, spiders come out at night and creep around caves. However, they don't burn in the daylight but they do become docile. Spiders can also climb, so don't forget to look up! By slaying a spider you can obtain some of their silk string and their eyes. Rarely, you will find a skeleton riding a spider; we call them spider jockeys. More dangerous then either a skeleton or spider alone, they shoot arrows, are fast, and can climb. Next is a very dangerous creature, the creeper. They are so named as they will creep up behind you and explode, harming both you and the landscape. If you manage to see one before it explodes, you will notice that they flash and grow a bit bigger. This means that an explosion is imminent; back off and give the creeper some space to calm down. Like spiders, creepers come out at night, creep around caves and do not burn in the daylight. When killed without a self sacrificing explosion, they will yeild up the source of their explosiveness, gunpowder. Lastly, we have the endermen. Like all previous they only come out at night and hide in caves. They don't burn in the daylight, however they don't like it and will try to find shade as soon as possible. Water harms them, so you tend to not see them when it's raining. They are a creature of magic and maytery and seem to have an inferiority complex about their face as they won't attack unless you look directly at their face. Their mystical powers allow them to teleport and they like to take bits of the landscape and move them around or just teleport away with it. No one really knows what they do with it. If you manage to kill one you can take their mystical enderpearls.
+description_success_english:Well that was a whole lot of information to take in. I'll give you a minute and then we can talk about weapons and armor.
+description_refuse_english:Without protection from these creatures you won't live long.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_armor_and_weapons1
+
+step:new
+label_english:That's not a knife!
+description_english:Absorb all that information yet?
+description_success_english:Now, you must be asking yourself, "Isn't there a better way to kill these monsters than punching them?" Yes, of course there is! With swords and bows. Let's start with swords. To make a sword, place one stick in the bottom middle of your workbench and a wooden plank in each space right above it. As with other tools you can change the wooden planks out for different types of materials. Go make a wooden sword and bring it to me.
+description_refuse_english:Fine, punch everything to death.
+steprequiredplayertag:minecraftia_armor_and_weapons1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_armor_and_weapons2
+
+step:new
+label_english:This is a knife!
+description_english:Crafted a sword yet?
+description_success_english:There you have it! Here's a stone sword for you. Now let's make a bow and some arrows. You can craft a bow by placing three pieces of string vertically along the right side of your workbench then adding three sticks in a triangle pointing left. Arrows are made by placing a stick in the center of the workbench, a feather below it, and a piece of flint above it. Flint can be obtained rarely by digging out gravel. Now, go and slay some spiders and make a bow and some arrows!
+description_refuse_english:Without a bow you'll just make things harder for yourself.
+steprequiredplayertag:minecraftia_armor_and_weapons2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_armor_and_weapons3
+requiredgood:woodsword,1
+rewardgood:stonesword,1
+rewardreputation:32
+
+step:new
+label_english:Take a bow
+description_english:Have you crafted a bow and some arrows?
+description_success_english:Excellent! And here's some extra arrows for you. Now that you have learned about weapons, let's enhance your survival with some armor. We're going to start with leather armor, although there are different materials that can be used. We'll start with something for your head. To make a helmet place five peices of leather in your workbench like so - three pieces horizontally across the top and one underneath each side in the left middle and right middle spots. Show me that you can make a leather cap.
+description_refuse_english:Fine, don't be protected.
+steprequiredplayertag:minecraftia_armor_and_weapons3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_armor_and_weapons4
+requiredgood:bow,1
+requiredgood:arrow,4
+rewardgood:bow,1
+rewardgood:arrow,16
+rewardreputation:32
+
+step:new
+label_english:Fancy hats
+description_english:Did you make a leather cap?
+description_success_english:Very good. Now the next piece of armor is the chestplate. To make a chestplate place three peices of leather horizontally along the bottom of your workbench, three pieces along the middle, and one each at either end of the top of the workbench. That's eight leather total. Go now and do this.
+description_refuse_english:Fine, don't be protected.
+steprequiredplayertag:minecraftia_armor_and_weapons4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_armor_and_weapons5
+requiredgood:leatherhelmet,1
+rewardgood:leatherhelmet,1
+rewardreputation:32
+
+step:new
+label_english:A dashing suit
+description_english:How's that leather tunic coming along?
+description_success_english:Good. Feeling better about staying alive? Next we shall make some leggings. To make leggings take three peices of leather and place them vertically along the right, three pieces vertically along the left, and one piece in the top middle. That's seven leather total. Come back to me when your finished.
+description_refuse_english:Fine, don't be protected.
+steprequiredplayertag:minecraftia_armor_and_weapons5
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_armor_and_weapons6
+requiredgood:leatherchest,1
+rewardgood:leatherchest,1
+rewardreputation:32
+
+step:new
+label_english:Rock star pants
+description_english:Do you have some pants yet?
+description_success_english:Well done. Last but not least are boots. Boots take the least amount of material to make at only four pieces. To make them, place two pieces of leather vertically, along the bottom right side of your workbench and two pieces vertically, along the bottom left side. Show me what you can do.
+description_refuse_english:Fine, don't be protected.
+steprequiredplayertag:minecraftia_armor_and_weapons6
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_armor_and_weapons7
+requiredgood:leatherlegs,1
+rewardgood:leatherlegs,1
+rewardreputation:32
+
+step:new
+label_english:Dancing shoes
+description_english:Have you made leather boots yet?
+description_success_english:Ahh, you now have the knowledge you need to survive, at least for a while. One last tidbit about armor. Now, you may not have tamed any yet, but horses can wear armor too, but only if made of a harder material than leather. Unfortunately, the expertise to craft this armor has been lost to the ages however their may still be peices of it scattered around the temples and dungeons. Well, that's it. Come and see us again some time.
+description_refuse_english:Fine, don't be protected.
+steprequiredplayertag:minecraftia_armor_and_weapons7
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_armor_and_weapons_complete
+requiredgood:leatherboots,1
+rewardgood:leatherboots,1
+rewardreputation:64

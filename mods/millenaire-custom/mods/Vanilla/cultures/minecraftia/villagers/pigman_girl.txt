@@ -1,0 +1,22 @@
+native_name=Girl
+alt_native_name=Female Teenager
+alt_key=teenagerfemale
+gender=female
+tag=child
+familyNameList=family_names
+firstNameList=female_first_names
+
+texture=/textures/entity/minecraftia/pigman_girl0.png
+
+goal=gorest
+goal=becomeAdult
+goal=goPlay
+
+goal=gosocialise
+goal=chat
+
+requiredFood=bread,3
+requiredFood=carrot,3
+requiredFood=potato,3
+
+

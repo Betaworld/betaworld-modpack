@@ -1,0 +1,3 @@
+sells=carrot,melonslice,apple,cookie,shears,flintandsteel,arrow,flint,emerald
+
+buys=wool_white,gold,emerald

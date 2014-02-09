@@ -1,0 +1,53 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/priest,requiredtag=minecraftia_priest
+forbiddenplayertag:minecraftia_monsters_master1
+requiredplayertag:minecraftia_armor_and_weapons_complete
+requiredplayertag:minecraftia_cooking_complete
+requiredplayertag:minecraftia_farming_advanced_complete
+requiredplayertag:minecraftia_fishing_complete
+requiredplayertag:minecraftia_monsters_advanced_complete
+
+
+step:new
+label_english:Man's best friend
+description_english:Welcome back. Have you been traipsing around any forests lately? If you have you may have noticed the wolves around. Normally they are peaceful creatures, but if aggrivated they will defend themselves. I'm sure you've already realized this. But did you know, that with a little coaxing, you tame them? Yes, just give them a few bones and they will happily follow you everywhere. You can also breed and heal wolves with most meats.
+description_success_english:Pets make this life more tolerable.
+description_refuse_english:You don't know what you're missing.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_master1
+
+step:new
+label_english:The menagerie
+description_english:Hello again, my friend $name. Let us add to our collection of furry friends. I am speaking about the ocelot and the excedingly rare mooshroom. The ocelot lives in jungles and will run at the sign of any human. To coax them into approaching, you must proceed very slowly and they very much like raw fish. While they are extremely scared of everything, there is one thing that is scared of them, creepers. Creepers will not approach an ocelot and may in fact flee at the sight of one. You'll do well to catch one or two. Lastly we have the mooshrooms. Mooshrooms have only ever really been rumored of - they may no longer exist - but I'll tell you anyway. It is said that they inhabit far off islands with strange redish grass where only mushrooms grow. It is claimed by some that mooshrooms even have mushrooms growing on their back and can be milked for mushroom stew! Can you believe it? Well let me tell you, adventurer, it is all true! If anyone can find them, it is you.
+description_success_english:Go now, adventurer, and seek!
+description_refuse_english:There are many mysteries of this world that it's priests alone are privy to.
+steprequiredplayertag:minecraftia_monsters_master1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_master2
+
+step:new
+label_english:To lead a life
+description_english:It is good to see you again, $name. Now you ask, "I have all of these great pets but how do I keep track of them all?" Well, you do that with leads and tags. A lead will allow you to move your pets anywhere you want and have them follow you. If you then attach the lead to a fence post it will keep your pet leashed there. To make a lead place three string in the uper left corner of your workbench, a slimeball in the middle, and another piece of string in the bottom right. Can you bring me a lead?
+description_success_english:Go now, adventurer, and seek!
+description_refuse_english:There are many mysteries of this world that it's priests alone are privy to.
+steprequiredplayertag:minecraftia_monsters_master2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_master3
+
+step:new
+label_english:Tag, you're it!
+description_english:Do you have a lead for me?
+description_success_english:Now to really kep track of all your pets we can name them wth name tags. Nobody really understands how to make name tags anymore and they can only be found in dugeons, Left by some ancient people. I believe that it is because ther is power in a name and it may be tied to the soul so ther might be some ender power in there. However, if you do manage to find a name tag you can give it a name with your Anvil and then give that name to any pet you have. You now have all the knowledge you need to be a master of all the creatures of this plane.
+description_refuse_english:There are many mysteries of this world that it's priests alone are privy to.
+steprequiredplayertag:minecraftia_monsters_master3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_master_complete
+requiredgood:lead,1
+rewardgood:lead,1
+rewardreputation:256

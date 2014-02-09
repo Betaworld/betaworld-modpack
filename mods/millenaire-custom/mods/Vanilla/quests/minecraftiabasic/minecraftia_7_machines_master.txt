@@ -1,0 +1,61 @@
+minreputation:64*64
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/librarianfemale,type=minecraftia/librarianmale,requiredtag=minecraftia_librarian
+forbiddenplayertag:minecraftia_machines_master1
+requiredplayertag:minecraftia_ores_complete
+requiredplayertag:minecraftia_books_complete
+requiredplayertag:minecraftia_armor_and_weapons_complete
+requiredplayertag:minecraftia_general_complete
+requiredplayertag:minecraftia_machines_complete
+requiredplayertag:minecraftia_machines_advanced_complete
+requiredplayertag:minecraftia_nether_complete
+requiredplayertag:minecraftia_ores_master_complete
+
+step:new
+label_english:The signal goes round and round
+description_english:Hello again, $name. I have been hearing that you are learning about The Nether. Fasinating place, isn't it? Anyway, we can use some materials from there in creating some more powered devices. Now I'm sure you've noticed some glowing material that hangs down from the roofs of caverns in The Nether. That is called glowstone. When you harvest glowstone, you will get glowstone dust. Useful for all kinds of things, for our purpose we want to remould it into a solid piece of glowstone. To do this, just make a square of glowstone dust in your workbench. Now that we have some solid glowstone again, we are going to make a lamp with it. Place the newly formed glowstone in the center of your workbench and four redstone in a cross shape around it. This will produce a redstone lamp. A redstone lamp will turn on when it receives a redstone signal and off again when there is no supply. Bring me a redstone lamp.
+description_success_english:I will see you once you have completed this task.
+description_refuse_english:You'll be back.
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_machines_master1
+
+step:new
+label_english:Lite it up
+description_english:Do you have a redstone lamp to show me?
+description_success_english:Good to see. Next we'll make something a little more complicated, called the redstone comparator. A redstone comparator will take in two redstone signals, one from the back, and one from the side, and produce a single signal out the front. A redstone comparator is made by placing three pieces of stone along the bottom row of your workbench, a piece of nether quartz in the very center, two redstone torches to either side of it, and another redstone torch above it. Please bring me a redstone comparator.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_master1
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_machines_master2
+requiredgood:redstone_lamp,1
+rewardgood:redstone_lamp,1
+rewardreputation:32
+
+step:new
+label_english:Logical conclusions
+description_english:Have you made a redstone comparator?
+description_success_english:Good. Complex circuits, here we come! Our last redstone powered device is a daylight sensor. A daylight sensor does just what it's name implies. It senses the level of light in the area and will send out a redstone signal of which the strength of that signal varies based on the light level. Brighter light is a stronger signal and total darkness is no signal at all. To make a daylight sensor, place three wooden slabs along the bottom row of your workbench, three pieces of glass along the top row, and fill the center row with nether quartz. Please make a daylight sensor.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_master2
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_machines_master3
+requiredgood:redstone_comparator,1
+rewardgood:redstone_comparator,1
+rewardreputation:32
+
+step:new
+label_english:To save a light
+description_english:Did you craft a daylight sensor?
+description_success_english:Good. Now you can create circuits that take action based on the time of day. We have only one more thing to speak about. I am going to teach you how to make fireworks. There are a multitude of different fireworks that you can make. Let's start with the basic firework. A basic firework will simply shoot up into the sky. To make a simple firework just place a piece of paper in the center of your workbench and some gunpowder right below it. This is so simple that I think we can move on from it. So let's start augmenting this simple firework. To increase the duration, you can add more gunpowder in the bottom left and bottom right of the workbench. Easy, right? Now we're going to add a firework star. Once crafted you will place the firework star above the piece of paper in the workbench. To craft a firework star you will always need some gunpowder in the top left corner of your workbench and some dye placed below it for color. You can then add a third ingredient to the right of the gunpowder. To add a color trail to the firework, use a diamond. To add a twinkling effect, use some glowstone dust. To change the shape of it's explosion, add a fire charge for a larger sphere, a gold nugget for a star shape, a feather for a bursting shape, or a monster head to make a creeper shape. Once a firework star is created you can then add even more colors by placing the firework star in the center and the new colored dye below it. Have fun experimenting with fireworks. I can now say that you, $name, have all the knowledge to be a master of all things mechanized. Good luck to you out there.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines_master3
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_machines_master_complete
+requiredgood:daylight_sensor,1
+rewardgood:daylight_sensor,1
+rewardreputation:256

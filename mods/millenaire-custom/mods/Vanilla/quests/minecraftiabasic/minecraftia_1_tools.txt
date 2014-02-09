@@ -1,0 +1,68 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/blacksmith,requiredtag=minecraftia_blacksmith
+definevillager:key=chief,type=minecraftia/chief,relatedto=startvillager,relation=samevillage
+forbiddenplayertag:minecraftia_tools1
+requiredplayertag:minecraftia_intro_complete
+
+step:new
+label_english:My first tools
+description_english:Hello adventurer! The village chief, $chief_villagername$ told me you would be paying a visit. Allow me to instruct you on making the tools of survival. Let's start with all important workbench, needed for making tools. To make a workbench, arrange 4 wooden planks in a square.
+description_success_english:Let me know when you have completed this.
+description_refuse_english:You won't amount to much without a workbench!
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools1
+
+step:new
+label_english:Let's make a workbench!
+description_english:Have you created a workbench yet?
+description_success_english:Very good. Now let's make the all important pickaxe. Take a couple of wooden planks and place them one above the other to make some sticks. Then place one stick in the middle of your workbench. Place another stick below this one. Then take three wooden planks and place them across the top of your workbench. This is the basic way to craft any pickaxe. The wooden planks can be changed out for other materials. Go make a wooden pickaxe now and bring it to me.
+description_refuse_english:A pickaxe is a man's best friend. Don't leave home without it!
+steprequiredplayertag:minecraftia_tools1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools2
+requiredgood:workbench,1
+rewardgood:workbench,1
+rewardreputation:32
+
+step:new
+label_english:Time to mine
+description_english:How's that pickaxe coming?
+description_success_english:Ahh, you have done it! Here, you deserve this stone pickaxe. Next I shall instruct you in making a shovel. As with a pickaxe, place a stick in the middle of the workbench and one below this. Then place a single wooden plank in the top middle of your workbench. Try this and come back to me.
+description_refuse_english:A shovel is a useful thing. I would keep one around if I were you.
+steprequiredplayertag:minecraftia_tools2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools3
+requiredgood:woodpickaxe,1
+rewardgood:stonepickaxe,1
+rewardreputation:32
+
+step:new
+label_english:Can you dig it
+description_english:Do you have a shovel yet?
+description_success_english:What a fine digging implement! And here is a slightly better, stone one. Now you will need an axe. No one wants to run around punching trees all day. Place sticks in your workbench just like the pickaxe and shovel, then place 3 wooden planks in the top left corner. One in the very top left, one in the top middle, and one in the middle left. Come back to me when you've done this.
+description_refuse_english:While an axe isn't necessary, it beats punching trees.
+steprequiredplayertag:minecraftia_tools3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools4
+requiredgood:woodshovel,1
+rewardgood:stoneshovel,1
+rewardreputation:32
+
+step:new
+label_english:He's a lumberjack and he's okay
+description_english:Cut down any trees yet?
+description_success_english:Excellent! Now, cutting trees with wood is rather silly, isn't it. Here's a stone axe for you. I bet you're getting hungry by now. Please go see one of the farmers and they will teach you all about raising crops and food. Or, go see the butcher to learn about livestock.
+description_refuse_english:Well then strave to death. Won't be the first time an adventurer thought they didn't need to eat.
+steprequiredplayertag:minecraftia_tools4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools_complete
+requiredgood:woodaxe,1
+rewardgood:stoneaxe,1
+rewardreputation:64

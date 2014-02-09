@@ -1,0 +1,66 @@
+name:Minecraftia Desert Village
+playerControlled:true
+radius:80
+
+//path materials
+pathmaterial:pathsandstone
+
+//starting buildings:
+centre:desert_playertownhall
+
+//just a list for the new building screen
+core:desert_butcher
+core:desert_church
+core:desert_forge
+core:desert_housecarrot
+core:desert_housecarrotlarge
+core:desert_housepotato
+core:desert_housepotatolarge
+core:desert_housewheat
+core:desert_housewheatlarge
+core:desert_housetiny1
+core:desert_housetiny2
+core:desert_housetiny3
+core:desert_housetiny4
+core:lamppost
+core:desert_library
+core:desert_well
+core:desert_playerplotlarge
+core:desert_playerhouselarge
+
+//player buildings
+
+//to be built in priority
+
+//to be built after the core ones
+
+//never to be built
+never:townhall
+never:butcher
+never:church
+never:forge
+never:housecarrot
+never:housepotato
+never:housewheat
+never:housecarrotlarge
+never:housepotatolarge
+never:housewheatlarge
+never:housetiny1
+never:housetiny2
+never:housetiny3
+never:housetiny4
+never:library
+never:well
+never:playerplotlarge
+never:playerhouselarge
+never:pigman_butcher
+never:pigman_church
+never:pigman_forge
+never:pigman_housecarrot
+never:pigman_housecarrotlarge
+never:pigman_housetiny1
+never:pigman_housetiny2
+never:pigman_housetiny3
+never:pigman_housetiny4
+never:pigman_library
+never:pigman_townhall

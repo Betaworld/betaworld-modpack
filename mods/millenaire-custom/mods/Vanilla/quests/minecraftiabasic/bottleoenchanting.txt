@@ -1,0 +1,15 @@
+minreputation:64*64
+chanceperhour:0.1
+maxsimultaneous:1
+
+step:new
+label_english:Experience at a price
+description_english:Hello there, adventurer! Looking for some experience? As the priest of this fair village I am privy to knowledge others are not, which includes how to make bottles o' enchanting. Bring me eight emeralds and I will give you one.
+description_success_english:And here is your bottle o' enchanting, good adventurer. A pleasure doing business with you!
+description_refuse_english:It's your loss. Another time perhaps?
+duration:48
+definevillager:key=startvillager,type=minecraftia/priest
+villager:startvillager
+requiredgood:emerald,8
+rewardgood:bottle_o_enchanting,1
+rewardreputation:256

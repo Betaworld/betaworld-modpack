@@ -1,0 +1,184 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/blacksmith,requiredtag=minecraftia_blacksmith
+forbiddenplayertag:minecraftia_ores1
+requiredplayertag:minecraftia_cooking_complete
+
+step:new
+label_english:It's gettin' hot in here
+description_english:Now that you've learned about cooking with a furnace it's time to learn what else we can use it for. We're going to talk about smelting materials. Let's start with making charcoal so you don't ever run out of fuel. To make charcoal just burn any wood log in your furnace. Bring to me eight charcoal.
+description_success_english:Glad you'll do it. You'll never run out of fuel.
+description_refuse_english:Suit yourself.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_ores1
+
+step:new
+label_english:Fuel for the fire
+description_english:Do you have the charcoal I asked for?
+description_success_english:Very well, on to smelting materials. The first material to speak about is stone. I'm sure you have been mining out stone recently to get cobblestone for building and such. Well, you can take that cobblestone and refine it back into stone by smelting it in your furnace. Go do this and bring me eight stone.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_ores1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_ores2
+requiredgood:charcoal,8
+rewardgood:charcoal,8
+rewardreputation:32
+
+step:new
+label_english:Pounding stone
+description_english:How is smelting working for you?
+description_success_english:Good. Now let's move on to a more complex material - glass. Glass is made by smelting sand. Carefull when digging out sand though, it could fall and crush you. Please bring me eight glass.
+description_refuse_english:Don't need windows?
+steprequiredplayertag:minecraftia_ores2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_ores3
+requiredgood:stone,8
+rewardgood:stone,8
+rewardreputation:32
+
+step:new
+label_english:Broken glass
+description_english:Have you smelted the glass yet?
+description_success_english:Excellent. Now, let's make using glass more econimical. If you place one row of glass in the bottom of your workbench and one row glass in the middle, you can craft glass panes. Please bring me sixteen glass panes.
+description_refuse_english:Glass panes look nicer and are more econimcal. What's not to love?
+steprequiredplayertag:minecraftia_ores3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_ores4
+requiredgood:glass,8
+rewardgood:glass,8
+rewardreputation:32
+
+step:new
+label_english:A window to the sun
+description_english:Did you craft some glass panes yet?
+description_success_english:Very good. Now on to a rarer building material, clay. Clay can be found on the bottom of rivers. As such, be carefull when digging it up as you wouldn't want to drown now would you? Once you have some clay you'll have to smelt it into bricks. Find some clay and bring me eight bricks please.
+description_refuse_english:I know it's dangerous, but you'll see it's worth the risk.
+steprequiredplayertag:minecraftia_ores4
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_ores5
+requiredgood:glass_pane,16
+rewardgood:glass_pane,16
+rewardreputation:32
+
+step:new
+label_english:Bakin' brick
+description_english:Have you baked some brick yet?
+description_success_english:Nice to see. Now, let's take those bricks and make something we can actually build with. In your workbench, place four bricks in a square. This will make a brick you can use for building. Bring me a brick.
+description_refuse_english:Bricks make for a nice looking house.
+steprequiredplayertag:minecraftia_ores5
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_ores6
+requiredgood:brick,8
+rewardgood:brick,8
+rewardreputation:32
+
+step:new
+label_english:Layin' brick
+description_english:Did you craft the bricks I asked for?
+description_success_english:Good job. Now your house will look amazing. Another thing you can do with clay is sculpt four balls of it into a block and then fire it in your furnace. This will give you some hardened clay. Go ahead and try it.
+description_refuse_english:I didn't realize this task was so hard.
+steprequiredplayertag:minecraftia_ores6
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_ores7
+requiredgood:bricks,1
+rewardgood:bricks,1
+rewardreputation:32
+
+step:new
+label_english:Pottery barn
+description_english:Have you brought some hardened clay?
+description_success_english:There we are. Now, it's time I instructed you on what lurks below. We will first start with something fairly easy to find and which you don't have to mine far down to get - coal. Coal is a replacement for charcoal as fuel and is used in the making of torches which I believe you have already done. You can also compact nine coal into a block, which is just a little bit more fuel efficient. Let's not waste any more time talking about coal. Mining a little further down and you can find iron. Iron is a very useful material and a staple of any good miner. To mine iron will need a stone pickaxe, a wooden one won't work very well. Once you have mined the iron ore you must refine it into iron ingots in your furnace. Please find some iron and bring me four iron ingots.
+description_refuse_english:Iron is a necessary part of any miner's stash.
+steprequiredplayertag:minecraftia_ores7
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_ores8
+requiredgood:hardened_clay,1
+rewardgood:hardened_clay,1
+rewardreputation:32
+
+step:new
+label_english:Ironing out
+description_english:Were you able to mine any iron?
+description_success_english:Very good to hear. You are well on your way to becoming a professional miner. Iron can be used to make better versions of any of your normal tools. Further in the underground you will find gold. Not as common, you will have to go pretty far down, but if you hit lava, you went too far. In order to mine gold properly you will need an iron pickaxe. Once you have the gold ore, as with iron, you must refine this into ingots in your furnace. Please bring me four gold ingots.
+description_refuse_english:Gold adds a wonderful accent to any building.
+steprequiredplayertag:minecraftia_ores8
+villager:startvillager
+duration:4096
+setplayertagsuccess:minecraftia_ores9
+requiredgood:iron,4
+rewardgood:iron,4
+rewardreputation:32
+
+step:new
+label_english:Precious, my precious
+description_english:Did you find any gold?
+description_success_english:Well done. Please note that with most of these materials you can make a large block of the material which you can then build with by filling your workbench with the material. Now for some emeralds, a material that we find particularly valuable. Emeralds are rare and you can only find then in the extreme hills. You will also need an iron pickaxe to mine them properly. Unlike iron and gold however, no smelting is necessary. Please find me an emerald.
+description_refuse_english:Money is the color green.
+steprequiredplayertag:minecraftia_ores9
+villager:startvillager
+duration:5120
+setplayertagsuccess:minecraftia_ores10
+requiredgood:gold,4
+rewardgood:gold,4
+rewardreputation:32
+
+step:new
+label_english:The color green
+description_english:Any luck finding emeralds?
+description_success_english:Oh, thank you so much! Oh, you want it back? Oh, ok, you can have it back. Another resource you will find in the underground is lapis lazuli. Like emerald, it does not need rifining in a furnace and requires an iron pickaxe, but thankfully is not confined to just extreme hills. See if you can find some lapis lazuli for me.
+description_refuse_english:I'm blue, da ba dee da ba die...
+steprequiredplayertag:minecraftia_ores10
+villager:startvillager
+duration:5120
+setplayertagsuccess:minecraftia_ores11
+requiredgood:emerald,1
+rewardgood:emerald,1
+rewardreputation:32
+
+step:new
+label_english:A gem of the ocean
+description_english:Mine any lapis lazuli recently?
+description_success_english:Ahh, lapis lazuli. The bluest stone if I ever saw one. Next, and going a little deeper, all the way down to lava in fact, is redstone. Extremely handy, restone will allow you to automate many things, for you see it carries a charge like electricity. Redstone does not need to be smelted in a furnace and requires an iron pickaxe to mine. Please be carefully with this one and don't fall in the lava.
+description_refuse_english:Restone is nothing to play around with if you don't know what you're doing.
+steprequiredplayertag:minecraftia_ores11
+villager:startvillager
+duration:6144
+setplayertagsuccess:minecraftia_ores12
+requiredgood:dye_blue,3
+rewardgood:dye_blue,3
+rewardreputation:32
+
+step:new
+label_english:A charge in the air
+description_english:Find any redstone?
+description_success_english:And there it is! A librarian can tell you more about redstone and machinery. Lastly, we have diamond. Diamond is the rearest material you can find mining in the undergound, but also very useful. It will produce the strongest protecting armor around. Maybe it's asking too much, but could you find some diamond?
+description_refuse_english:Good luck to you.
+steprequiredplayertag:minecraftia_ores12
+villager:startvillager
+duration:7168
+setplayertagsuccess:minecraftia_ores13
+requiredgood:redstone,4
+rewardgood:redstone,4
+rewardreputation:32
+
+step:new
+label_english:A girl's best friend
+description_english:Do you have the diamond?
+description_success_english:I must say that I did not expect this. Very well done. Now, off with you. You have much adventuring that must be done.
+description_refuse_english:Diamonds are the best. None for you I guess.
+steprequiredplayertag:minecraftia_ores13
+villager:startvillager
+duration:7168
+setplayertagsuccess:minecraftia_ores_complete
+requiredgood:diamond,1
+rewardgood:diamond,1
+rewardreputation:64

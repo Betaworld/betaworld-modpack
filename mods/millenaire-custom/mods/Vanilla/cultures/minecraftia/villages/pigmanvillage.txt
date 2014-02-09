@@ -1,0 +1,72 @@
+name:Pigman Minecraftia Village
+weight:5
+radius:80
+carriesraid:false
+biome:swampland
+
+//extraBiomes mod
+
+//biomes o plenty mod
+
+//path materials
+pathmaterial:pathdirt
+pathmaterial:pathgravel
+pathmaterial:pathslabs
+
+//starting buildings:
+centre:pigman_townhall
+start:pigman_butcher
+start:pigman_church
+start:pigman_forge
+start:pigman_housecarrot
+start:pigman_housetiny1
+start:pigman_library
+start:lamppost
+start:well
+
+//player buildings
+player:playerplotlarge
+player:playerhouselarge
+
+//to be built in priority
+core:pigman_housetiny2
+core:pigman_housetiny3
+core:pigman_housetiny4
+core:pigman_housecarrotlarge
+
+//to be built after the core ones
+
+//never to be built
+never:townhall
+never:butcher
+never:church
+never:forge
+never:housecarrot
+never:housepotato
+never:housewheat
+never:housecarrotlarge
+never:housepotatolarge
+never:housewheatlarge
+never:housetiny1
+never:housetiny2
+never:housetiny3
+never:housetiny4
+never:library
+never:desert_townhall
+never:desert_butcher
+never:desert_church
+never:desert_forge
+never:desert_housecarrot
+never:desert_housecarrotlarge
+never:desert_housepotato
+never:desert_housepotatolarge
+never:desert_housewheat
+never:desert_housewheatlarge
+never:desert_housetiny1
+never:desert_housetiny2
+never:desert_housetiny3
+never:desert_housetiny4
+never:desert_library
+never:desert_well
+never:desert_playerplotlarge
+never:desert_playerhouselarge

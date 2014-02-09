@@ -1,0 +1,84 @@
+newchat;key:sun,tag:notraining,weigth:10
+v1;0;What a nice day!
+v2;30;Enjoy it while we can!
+
+newchat;key:undead,weigth:10
+v1;0;Do you think there will ever be time when the undead don't walk the night?
+v2;30;We can only hope.
+
+newchat;key:zombie,weigth:10
+v1;0;Did you hear? Another one was turned last night.
+v2;30;Fool, everyone knows to stay inside, in a well lit room at night.
+
+newchat;key:enderman,weigth:10
+v1;0;I saw an Enderman last night.
+v2;30;Did it take anything?
+v1;60;Only my favorite thinking stone!
+v2;100;I wonder what they do with them?
+v1;120;No idea.
+
+newchat;key:adventurernether,weigth:10,v1:adult,v2:adult
+v1;0;So I heard about this adventurer.
+v2;30;What's so special about this one?
+v1;60;Well, the story has it that he bought a flint and steel, a bucket, a diamond pickaxe and disappeared into a mineshaft.
+v2;100;Silly adventurer.
+v1;120;Oh, no. He survived! He emerged a short time later with some obsidian.
+v2;150;Ahh, Creeper protection.
+v1;180;That's what I thought, but I was wrong.
+v2;210;Well then what did he use it for?
+v1;240;He built a standing rectangle of it. Then, he lit it on fire with the flint and steel. It must have been some old ender power because the fire became a shimmering portal.
+v2;290;Ender power! A shimmering portal! This is just too much.
+v1;320;It's true I tell you! Word has it that the portal lead to the Nether.
+v2;350;Why would anyone want to go to that horrific place? And a portal there would bring doom upon us all!
+v1;380;The adeventurer was never heard from again.
+
+newchat;key:adventurerdead,weigth:10,v1:adult,v2:adult
+v1;0;So I heard about this adventurer.
+v2;30;What's so special about this one?
+v1;60;Nothing! He died!
+v2;100;Ha ha ha ha.
+v1;100;Ha ha ha ha.
+v2;130;But seriously, that's sad.
+
+newchat;key:nofarms,weigth:10,v1:adult,v2:adult,notbuilding:desert_housecarrot,notbuilding:desert_housecarrotlarge,notbuilding:desert_housepotato,notbuilding:desert_housepotatolarge,notbuilding:desert_housewheat,notbuilding:desert_housewheatlarge,notbuilding:housecarrot,notbuilding:housecarrotlarge,notbuilding:housepotato,notbuilding:housepotatolarge,notbuilding:housewheat,notbuilding:housewheatlarge
+v1;0;I really wish we had some vegitables. Eating just meat and bread all time can't be good.
+v2;30;Then go build a farm or quit complaining! Just be thankful you're alive.
+v1;60;I guess when you put it that way, I am glad to have not been eaten by a zombie.
+
+newchat;key:adventurerelectriccreeper,v1:adult,v2:adult,weigth:10
+v1;0;So I heard about this adventurer.
+v2;30;What's so special about this one?
+v1;60;Well, the story has it that one night, during a storm, the adventurer was being chased by a creeper.
+v2;90;I hate those things. Should stay in at night too.
+v1;120;Would you just listen to the story? So, adventurer is being chased by a creeper at night, during a storm. Suddenly, BAM! Creeper gets hits by lightning.
+v2;150;Oh, this just keeps getting worse.
+v1;180;So now the creeper's electrified! And still chasing the adventurer! But, he thinks he sees a way out. He spots a ravine and edges over it to a ledge about five meters down. The electrified creeper gets right above him and blows up. The blast was enormous. Killed the adventurer instantly.
+v2;210;And the lesson learned is, 'Never go out at night in a storm'.
+
+newchat;key:undeadsmarter,v1:adult,v2:adult,weigth:10
+v1;0;I think the undead are getting smarter.
+v2;30;How so?
+v1;60;Well, I've been watching them from the safty of my house and I noticed that they are now picking up things and putting on armor.
+v2;90;That's not good to hear at all.
+v1;120;What's more is that the armor is somehow protecting them from burning in the sun!
+v2;150;We're all doomed...
+
+newchat;key:adventurerchild,v1:child,v2:adult,v2:male,rel:child,weigth:10
+v1;0;Daddy! I wanna be an adventurer when I grow up!
+v2;30;No! It's too dangerous!
+v1;60;The village isn't eny safer! Attacked by zombies, skeletons, creepers, and spiders every night.
+v2;90;And these walls keep us safe from them. You can't survive out there on your own.
+v1;120;I will! You'll see! One day I'll come back a real adventurer.
+v2;150;Kids these days!
+
+newchat;key:adventurertemple,v1:adult,v2:adult,weigth:10
+v1;0;So I heard about this adventurer.
+v2;30;What's so special about this one?
+v1;60;Well, the story has it, he bought all of the village's eyes of ender and threw one up into the air.
+v2;90;It's not wise to mess around with the old ender powers.
+v1;120;Listen to the story already! So he throws the eye of ender into the air, and it flies off in a direction. So the adventurer goes running after it! Word has it that it lead him to an old ender temple.
+v2;150;Time to turn around and go home if you ask me.
+v1;180;Anyway, about a week after he left the village, he comes back.
+v2;210;He survived?!
+v1;240;But he didn't come back alone. He had an egg. A dragon egg!
+v2;270;Oh, that's just what we need, dragons ...

@@ -1,0 +1,7 @@
+name:Sunken Hut
+weight:100
+radius:8
+biome:mini jungle
+
+//starting buildings:
+centre:sunkenhut

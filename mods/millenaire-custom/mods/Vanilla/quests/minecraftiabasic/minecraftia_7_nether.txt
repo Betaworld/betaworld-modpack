@@ -1,0 +1,36 @@
+minreputation:64*64
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/priest,requiredtag=minecraftia_priest
+forbiddenplayertag:minecraftia_nether1
+requiredplayertag:minecraftia_mysteries_complete
+
+step:new
+label_english:The fire beyond
+description_english:We meet again, $name. It is time for you to delve into the place of fire and death. We call this place, The Nether. Perhaps it is a differnt plane of existence running parallel to this one, or an alternate dimension, it is unclear. But we do know how create a gateway between these two worlds and you must have this knowledge as well, adventurer, if you are to succeed in your destiny. To create a Nether Portal, you will need fourteen obsidian. With the obsidian, create a standing doorway frame, four wide by five tall. Once you have completed this, light the inside of the frame on fire. If done correctly a portal will appear within the frame. Standing in this gateway will transport you to The Nether. Let me now warn you of what to expect on the other side. Inside The Nether there are vast lakes and falls of lava, large black as night fortresses where creatures of fire and death roam freely, and the other denizens are just as horrific. Let us take each of these vile creatures and analyze them. Zombie pigmen are the most numerous denizen of The Nether. A vile hybrid of pigs and zombies, they are peaceful at heart, but they won't hesitate to destroy you if you harm one of them. As they hunt in packs, if one member of the group is wounded, all of them will chase you down for revenge. They also have a penchant for gold. They carry golden swords and gold nuggets. Gold nuggets have a varity of uses. Firstly you can compress them into gold ingots by filling your workbench with them and secondly you can make a glistering melon by placing a melon slice in the center of your workbench and eight gold nuggets in a ring around it. We will talk about some of its other uses later, when it is more relevant. The next resident of The Nether to be wary of is the ghast. Ghasts are incredibly large, fly, and shoot fireballs, which can destroy softer materials. If you actually manage to kill one, it may drop one of it's tears. Now we have the magma cube. Magma cubes seem to be a cousin of our slimes, thus suggesting a common evolutionary ancestor or maybe they are slimes corrupted by ender power. It is unknown. When turned to paste you can collect some of thier left over magma cream. Next there are blazes. Blazes inhabit the nether fortresses, can fly, and will shoot fire at you. When slain, you can collect the core of their being, a blaze rod. Pulverizing the blaze rod in your workbench will produce blaze powder. Blaze powder has a number of uses,one of which is creating fire charges. Fire charges can be thrown to shoot fire, much like the blazes themselves. To craft a fire charge, place a piece of coal in the center of your workbench, some blaze powder to the left of it, and some gunpowder below it. Next, we have the wither skeleton. Wither skeletons are much larger than the undead we see here and carry large swords. The also inhabit the nether fortresses. Upon being destroyed, you can collect their heads as a trophy. Lastly we have what some call a ruler of The Nether, the Wither. A Wither can be summoned by placing Soul Sand (which we'll get to later) in a standing 'T' shape on the ground, then placing three wither skeleton heads on top. Do not take this creature lightly! If you manage to survive and kill this creature, within it's body you will find a nether star. There is only one use for a nether star, to my knowledge, and that is in the creation of beacons. Beacons, when placed on a pyramid of iron, gold, emerald, or diamond, will emit a beam of light. Once this is done, feeding the beacon one of these materials will give you a powerful advantage as long as you stay near it. The larger the pyramid, the further away you can be before it's effects wear off. To craft a beacon, place a row of obsidian on the bootom of your workbench, a row of glass along the top, the nether star in the center, and a piece of glass to etiher side of it. That is all for the denizens of that horrid place. Please bring me the spoils of your adventuring there - a gold nugget, a ghast tear, some magma cream, a blaze rod, and a wither skeleton head.
+description_success_english:Happy adventuring!
+description_refuse_english:It is up to you, adventurer.
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_nether1
+
+step:new
+label_english:The creatures' folly
+description_english:Have you slain many Nether creatures?
+description_success_english:Very well done. We will speak again of more mysteries.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_nether1
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_nether_complete
+requiredgood:gold_nugget,1
+requiredgood:ghasttear,1
+requiredgood:magma_cream,1
+requiredgood:blaze_rod,1
+requiredgood:wither_skeleton_head,1
+rewardgood:gold_nugget,1
+rewardgood:ghasttear,1
+rewardgood:magma_cream,1
+rewardgood:blaze_rod,1
+rewardgood:wither_skeleton_head,1
+rewardreputation:128

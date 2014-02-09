@@ -1,0 +1,12 @@
+//special tags:
+//hard-coded behaviour based on the name
+//then -1, then no value counts until the colour one
+
+//simple tags:
+//name is only indicative
+//first value after is the blockId, second the damage value
+//third whether it should be placed after the other blocks
+quicksand;2214;0;false;17/0/1
+
+
+

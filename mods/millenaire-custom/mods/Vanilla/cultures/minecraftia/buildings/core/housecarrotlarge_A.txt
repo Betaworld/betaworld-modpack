@@ -1,0 +1,1 @@
+priority:100;max:2;native:Large House;around:4;startLevel:-1;orientation:3;width:13;length:20;male:carrotfarmermale;female:carrotfarmerfemale;shop:farmshop;tag:Patrol;tag:bakery;tag:Oven;tag:chicken;pathlevel:1

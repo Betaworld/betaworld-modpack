@@ -1,0 +1,28 @@
+minreputation:2*64*64
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/priest,requiredtag=minecraftia_priest
+forbiddenplayertag:minecraftia_the_end1
+requiredplayertag:minecraftia_brewing_complete
+
+step:new
+label_english:The end of all
+description_english:Welcome back yet again, $name. Our time together is quickly coming to a close. I wish to reveal to you the last of the mysteries I have knowledge of. Do you remember the ender pearls I spoke to you about and how they have strange power? Well, you can unlock even more power within them. By combining an ender pearl with blaze powder you can create an eye of ender. With this newly unlocked power you can create a special kind of chest that is linked to others of it's kind over any distance or across dimensions. To make these ender chests, place the eye of ender in the center of your workbench and eight obsidian in a ring around it. Show me this mystery.
+description_success_english:I shall wait for you.
+description_refuse_english:It is up to you, adventurer.
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_the_end1
+
+step:new
+label_english:Everywhere at once
+description_english:Have you crafted an ender chest?
+description_success_english:Very good. I must now inform you of another place that I have only heard of in passing. They call it The End. I have heard of only one way to reach there. Throwing those eyes of ender to the sky, it is said they will fly in the direction of the last ender strongholds. Within the stronghold is a portal, guarded by small creatures that hide in rock called silverfish. It is said that to activate the portal more eyes of ender must be placed within it's frame. Once you pass through this portal I cannot say what you will find as I do not know of any that have returned. Well, you now have all of the knowledge you need to master this world. Good luck adventurer and let me know what you find at The End. For more information please see - www.minecraftwiki.net
+description_refuse_english:It is up to you, adventurer.
+steprequiredplayertag:minecraftia_the_end1
+villager:startvillager
+duration:10240
+setplayertagsuccess:minecraftia_the_end_complete
+requiredgood:ender_chest,1
+rewardgood:ender_chest,1
+rewardreputation:512

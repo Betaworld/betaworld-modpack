@@ -1,0 +1,83 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/wheatfarmerfemale,type=minecraftia/wheatfarmermale,type=minecraftia/carrotfarmerfemale,type=minecraftia/carrotfarmermale,type=minecraftia/potatofarmerfemale,type=minecraftia/potatofarmermale,requiredtag=minecraftia_farmer
+forbiddenplayertag:minecraftia_farming1
+requiredplayertag:minecraftia_tools_complete
+
+step:new
+label_english:It's growing season
+description_english:Hello adventurer! I've been asked to teach you about our local crops and how to plant them. But first, let's talk about hunger and eating. As time passes you will get hungry and need to eat. If too much time passes before you eat your body will be wracked with pain. If you keep yourself with a full belly, all your wounds will heal over time as well. So let's get planting and harvesting food shall we. All food requires land to grow on and water no more than 2 meters away to nourish it. Before you can plant anything however, you need to till the soil to make it acceptable for growing. You'll need to till the soil with hoe. To make a wooden hoe place one stick in the middle of your workbench and the other right below it in the bottom middle. Then take two wooden planks and place one in the the top left corner and one in the the top middle of your workbench. Do this for me now and then we can start planting.
+description_success_english:Let me know when you have completed this task.
+description_refuse_english:I understand if farming just isn't for you.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_farming1
+
+step:new
+label_english:How much for that hoe
+description_english:Have you a hoe?
+description_success_english:Good! Here, let me give you this old stone one I found lying around. Now, here are some seeds. Why don't you go and find a spot of land near some water and plant the seeds. Wheat will grow over time once planted and has 8 stages of growth. Once ripened you can harvest it. Come back to me when you have nine wheat.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_farming1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_farming2
+requiredgood:woodhoe,1
+rewardgood:stonehoe,1
+rewardgood:seeds,9
+rewardreputation:32
+
+step:new
+label_english:No pain, no grain
+description_english:Did you harvest wheat as I instructed?
+description_success_english:Very good, now we can make some bread with this. You can also make cookies and cake with wheat, but we'll get to that later. Now to make bread, you just take three bunches of wheat and place them in a row, horizontally, in your workbench. Bring me back some bread and we'll move on.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_farming2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_farming3
+requiredgood:wheat,9
+rewardgood:wheat,9
+rewardreputation:32
+
+step:new
+label_english:The best thing since sliced bread
+description_english:You didn't eat all that bread did you?
+description_success_english:Good. Now you won't go hungry. And here's a little something for the road. Now let's learn about another crop, carrots. Carrots grow in the same maner as wheat however you can eat them raw. They don't provide as much nutrition as bread though. Here's a carrot, go turn it into three.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_farming3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_farming4
+requiredgood:bread,1
+rewardgood:bread,3
+rewardgood:carrot,1
+rewardreputation:32
+
+step:new
+label_english:Carrot top
+description_english:You know what likes carrots? Bunnies.
+description_success_english:Good. Now let's learn about another crop, potatoes. Potatoes grow in the same maner as wheat and carrots however you can eat them raw. They don't provide nearly as much nutrition though and there's a chance you will harvest a bad one. Here's a potato, go turn it into three.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_farming4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_farming5
+requiredgood:carrot,3
+rewardgood:carrot,3
+rewardgood:potato,1
+rewardreputation:32
+
+step:new
+label_english:You say potato, I say potato
+description_english:Behave yourself now. Potatoes have eyes.
+description_success_english:Good. You have now learned some of the local crops of our land. A couple of last things before I let you go. I'm sure you've noticed by now that the leaves of trees decay when you chop them down. Sometimes they will drop their seeds in the form of saplings. You can plant these saplings to grow more trees. One more thing. There is a way to make your crops grow faster. If you use bone meal on crops they will grow nigh instantaneously and also allow you to grow flowers on plain grass. Bone meal is made by pulverising bone in your workbench. I think that's it for now. Head over to the butcher's and they'll teach you about cooking.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_farming5
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_farming_complete
+requiredgood:potato,3
+rewardgood:potato,3
+rewardreputation:64

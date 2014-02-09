@@ -1,0 +1,1 @@
+priority:200;max:1;native:Well;around:4;startLevel:-16;orientation:3;width:6;length:6;tag:leasure;pathlevel:1

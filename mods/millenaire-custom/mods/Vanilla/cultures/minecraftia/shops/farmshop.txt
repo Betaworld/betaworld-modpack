@@ -1,0 +1,3 @@
+sells=carrot,potato,bread,melonslice,apple,cookie,shears,flintandsteel,chickenmeatcooked,arrow,flint,emerald
+
+buys=wheat,wool_white,chickenmeat,fishcooked,gold,emerald

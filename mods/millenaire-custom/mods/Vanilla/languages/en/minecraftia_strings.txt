@@ -1,0 +1,51 @@
+culture.minecraftia=Minecraftia
+
+villager.teenagerMale=Youth
+villager.teenagerFemale=Youth
+villager.boy=Boy
+villager.girl=Girl
+villager.blacksmith=Blacksmith
+villager.butcherfemale=Butcher
+villager.butchermale=Butcher
+villager.carrotfarmerfemale=Farmer
+villager.carrotfarmermale=Farmer
+villager.chief=Village Chief
+villager.chiefpartner=Village Chief Wife
+villager.librarianfemale=Librarian
+villager.librarianmale=Librarian
+villager.potatofarmerfemale=Farmer
+villager.potatofarmermale=Farmer
+villager.priest=Priest
+villager.villagerfemale=Villager
+villager.villagermale=Villager
+villager.wheatfarmerfemale=Farmer
+villager.wheatfarmermale=Farmer
+
+villager.pigman_blacksmith=Blacksmith
+villager.pigman_boy=Boy
+villager.pigman_butcherfemale=Butcher
+villager.pigman_butchermale=Butcher
+villager.pigman_carrotfarmerfemale=Farmer
+villager.pigman_carrotfarmermale=Farmer
+villager.pigman_chief=Village Chief
+villager.pigman_chiefpartner=Village Chief Wife
+villager.pigman_girl=Girl
+villager.pigman_librarianfemale=Librarian
+villager.pigman_librarianmale=Librarian
+villager.pigman_potatofarmerfemale=Farmer
+villager.pigman_potatofarmermale=Farmer
+villager.pigman_priest=Priest
+villager.pigman_villagerfemale=Villager
+villager.pigman_villagermale=Villager
+villager.pigman_wheatfarmerfemale=Farmer
+villager.pigman_wheatfarmermale=Farmer
+
+shop.townhall=Central Store
+shop.farmshop=Farm Goods
+shop.butchershop=Butcher Shop
+shop.priestshop=Mystical Items
+shop.libraryshop=Scholarly Items
+shop.blacksmithshop=Blacksmith Shop
+
+shop.pigman_farmshop=Farm Goods
+shop.pigman_butchershop=Butcher Shop

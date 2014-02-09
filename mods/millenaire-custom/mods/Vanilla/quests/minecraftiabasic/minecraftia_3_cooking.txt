@@ -1,0 +1,70 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/butcherfemale,type=minecraftia/butchermale,requiredtag=minecraftia_butcher
+forbiddenplayertag:minecraftia_cooking1
+requiredplayertag:minecraftia_farming_complete
+requiredplayertag:minecraftia_livestock_complete
+
+step:new
+label_english:Burning down the house
+description_english:I think it's high time you learned to cook your meat. To cook meat, or anything else, you'll need a furnace. To make a furnace just take eight cobblestone and place it in a ring around the edges of your workbench. That's it! Go make a furnace and show me.
+description_success_english:Once you do this we can get on to more interesting things.
+description_refuse_english:I suppose you don't need a furnace.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_cooking1
+
+step:new
+label_english:A box of fire
+description_english:Did you make a furnace yet?
+description_success_english:Excellent! The basics of using a furnace are thus - place what you want to cook in the top slot and your fuel in the bottom slot. After a short period of time, you will have a cooked product in the spot on the right. For fuel you can use pretty much anything made of wood, coal, or lava. Now, let's get cooking. Cook some of that raw beef you have and bring me a nice juicy steak.
+description_refuse_english:You won't get any pudding unless you eat your meat!
+steprequiredplayertag:minecraftia_cooking1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_cooking2
+requiredgood:furnace,1
+rewardgood:furnace,1
+rewardreputation:32
+
+step:new
+label_english:I'll have the T-bone
+description_english:Did you cook up some steak?
+description_success_english:Good, good. Let's do the same with some raw porkchops and raw chicken.
+description_refuse_english:Fine, keep eating raw, unhealthy food.
+steprequiredplayertag:minecraftia_cooking2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_cooking3
+requiredgood:beefcooked,1
+rewardgood:beefcooked,1
+rewardreputation:32
+
+step:new
+label_english:Porkchops and chicken
+description_english:Have you cooked some porkchops and chicken yet?
+description_success_english:Well done. That takes care of cooking meat. Now say you want some vegitables to go along with that meat. Go grab some potatoes and cook them to make some baked potatoes.
+description_refuse_english:Steak and potatoes, how could you go wrong?
+steprequiredplayertag:minecraftia_cooking3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_cooking4
+requiredgood:chickenmeatcooked,1
+requiredgood:porkchopscooked,1
+rewardgood:chickenmeatcooked,1
+rewardgood:porkchopscooked,1
+rewardreputation:32
+
+step:new
+label_english:With a side of butter
+description_english:How are those baked potatoes?
+description_success_english:Good. Now I think you're all set with cooking food. Go and see the blacksmith for more about using the furnace.
+description_refuse_english:Ok, suit yourself.
+steprequiredplayertag:minecraftia_cooking4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_cooking_complete
+requiredgood:baked_potato,1
+rewardgood:baked_potato,1
+rewardreputation:64

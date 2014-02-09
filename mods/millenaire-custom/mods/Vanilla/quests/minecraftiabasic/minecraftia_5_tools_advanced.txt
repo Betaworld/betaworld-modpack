@@ -1,0 +1,83 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/blacksmith,requiredtag=minecraftia_blacksmith
+forbiddenplayertag:minecraftia_tools_advanced1
+requiredplayertag:minecraftia_farming_complete
+requiredplayertag:minecraftia_armor_and_weapons_complete
+requiredplayertag:minecraftia_ores_complete
+requiredplayertag:minecraftia_fishing_complete
+
+step:new
+label_english:Tools for the future
+description_english:Hi there! Let's make some more tools! We'll start with the shears. Now I already know you've been told you can use shears to get wool from sheep more efficiently, but there are other things you can use shears for. Shears will allow you to prune leaves, vines, ferns, dead bushes, and tall grass and remove cobwebs with ease. Shears are made by placing one inron ingot in the bottom left corner of your workbench and one iron ingot in the middle of your workbench. Bring me some shears.
+description_success_english:Shears are a useful tool.
+description_refuse_english:Suit yourself.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools_advanced1
+
+step:new
+label_english:A shear cut
+description_english:Did you craft some shears?
+description_success_english:Good. Now let's make a bucket. A bucket can be used for picking up water, lava, and as you know, milk. A bucket is simply made by placing iron ingots in a 'V' shape in your workbench. Bring to me a bucket.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_tools_advanced1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools_advanced2
+requiredgood:shears,1
+rewardgood:shears,1
+rewardreputation:32
+
+step:new
+label_english:Bucketing the issue
+description_english:Have you made a bucket yet?
+description_success_english:Very good. Next up is a flint and steel. I bet you can guess what is used to make this. Place a flint in the bottom middle of your workbench and an iron ingot above and to the left of it. Try this out.
+description_refuse_english:You'll want it sooner or later.
+steprequiredplayertag:minecraftia_tools_advanced2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools_advanced3
+requiredgood:bucketempty,1
+rewardgood:bucketempty,1
+rewardreputation:32
+
+step:new
+label_english:Do you have a light?
+description_english:Have you crafted a flint and steel?
+description_success_english:Nice. Now you can set all kinds of things on fire. Now let's make an anvil. An anvil will allow you repair your items and personalize them to you. Every adventurer needs to have their own special weapons and armor. To make an anvil you will place a row of solid blocks of iron across the top of your workbench, an iron ingot in the middle, and a row of iron ingots across the bottom. Let me know when you've made an anvil.
+description_refuse_english:You'll want it sooner or later.
+steprequiredplayertag:minecraftia_tools_advanced3
+villager:startvillager
+duration:4096
+setplayertagsuccess:minecraftia_tools_advanced4
+requiredgood:flintandsteel,1
+rewardgood:flintandsteel,1
+rewardreputation:32
+
+step:new
+label_english:Acme's finest
+description_english:Have you forged an anvil yet?
+description_success_english:Very good. To repair something with an anvil just place the item you want to repair in the left and the item to repair it with in the middle. The repaired item will appear in the right. Let's talk about saddles now. Saddles can be found in the afore mentioned dungeons or we might have a few to sell to you. Once you have a saddle, you can put it on horses and pigs and ride them. However, with a pig, you won't be able to control it, it goes where it wants. To control a pig you will need a carrot on a sitck. To make a carrot on a stick just combine a fishing rod with a carrot. Let me see your carrot on a stick.
+description_refuse_english:Why would you not want to ride a pig?
+steprequiredplayertag:minecraftia_tools_advanced4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools_advanced5
+requiredgood:anvil,1
+rewardgood:anvil,1
+rewardreputation:32
+
+step:new
+label_english:To lead a pig
+description_english:Do you have a carrot on a stick?
+description_success_english:Good. You are well on your way to becoming a professional adventurer! We'll see you next time.
+description_refuse_english:Good luck then.
+steprequiredplayertag:minecraftia_tools_advanced5
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_tools_advanced_complete
+requiredgood:carrot_on_a_stick,1
+rewardgood:carrot_on_a_stick,1
+rewardreputation:128

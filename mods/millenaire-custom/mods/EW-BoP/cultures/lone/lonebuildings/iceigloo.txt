@@ -1,0 +1,8 @@
+name:Ice Igloo
+weight:100
+radius:15
+biome:glacier
+
+
+//starting buildings:
+centre:iceigloo

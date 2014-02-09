@@ -1,0 +1,10 @@
+name:Haunted house
+weight:50
+radius:30
+
+mindistancefromspawn:500
+
+biome:ominous woods
+
+//starting buildings:
+centre:hauntedhouse

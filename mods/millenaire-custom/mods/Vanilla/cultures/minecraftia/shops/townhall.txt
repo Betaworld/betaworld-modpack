@@ -1,0 +1,5 @@
+sells=pathdirt_stable,pathgravel_stable,pathslabs_stable,wood,wood_pine,wood_birch,wood_jungle,cobblestone,stone,glass,emerald,purse,villageWand
+
+buys=wood,wood_pine,wood_birch,wood_jungle,cobblestone,stone,glass,emerald
+
+deliverto=wood,wood_pine,wood_birch,wood_jungle,cobblestone,stone,glass

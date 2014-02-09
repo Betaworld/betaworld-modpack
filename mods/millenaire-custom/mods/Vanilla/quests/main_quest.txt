@@ -1,0 +1,315 @@
+Tier 1
+
+Tools (Blacksmith):
+Workbench
+Sticks
+Pickaxe
+Shovel
+Axe
+
+
+
+
+Tier 2
+
+Farming (Farmer):
+Hunger
+Hoe
+Seeds
+Wheat
+Bread
+Carrot
+Potato
+Saplings -> Trees
+Bone -> Bone Meal
+Flowers
+
+Livestock (Butcher):
+Hunger
+Cows
+Raw Beef
+Leather
+Milk
+Breeding Cows
+Pigs
+Breeding Pigs
+Raw Porkcops
+Chickens
+Raw Chicken
+Feathers
+Eggs
+Breeding Chickens
+Sheep
+Wool
+Breeding Sheep
+!Horses
+!Breeding Horses
+!Horse Drops
+!Donkeys
+!Mules
+!Hay Bales
+
+
+
+
+Tier 3
+
+Armor and Weapons (Blacksmith):
+Zombies
+Skeletons
+Spiders
+Spider Jockeys
+Creeper
+Endermen
+Sword
+Bow
+Arrow
+Gravel -> Flint
+Helmet
+Chestplate
+Leggings
+Boots
+!Horse Armor
+
+Farming Advanced (Farmer):
+Sugar Cane
+Sugar
+Cocoa Beans
+Cookies
+Pumpkin
+Pumpkin Pie
+Pumpkin Seeds
+Melon
+Melon Seeds
+Mushrooms
+Apple
+Bowl
+Mushroom Stew
+Cactus
+
+Cooking (Butcher):
+Furnace
+Steak
+Cooked Chicken
+Cooked Porkchops
+Baked Potato
+
+General (Chief's Wife):
+Bed
+Torch
+Slab
+Stairs
+Chest
+Sign
+Door
+Ladder
+Fence
+Fence Gate
+Trapdoor
+Painting
+Item Frame
+
+
+
+
+Tier 4
+
+Books (Librarian):
+Paper
+Book
+Bookshelf
+Squid -> Ink
+Book and Quill -> Written Book
+
+Fishing (Farmer):
+Fishing Pole
+Raw Fish
+Cooked Fish
+Boat
+
+Ores (Blacksmith):
+Wood -> Charcoal
+Cobblestone -> Stone
+Sand -> Glass -> Glass Panes
+!Clay -> Brick -> Brick Block -> Clay Block -> Hardened Clay
+!Coal -> Block of Coal
+Iron
+Gold
+Emerald
+Lapis
+Redstone
+Diamond
+
+Monsters Advanced (Priest):
+Dungeons
+Desert Tomb
+Jungle Temples
+Witch
+!Wolf - remove
+!Slimes - add
+Iron Golem
+Snow Golem
+
+
+
+
+Tier 5
+
+General Advanced (Chief's Wife):
+Cocoa Beans = Brown
+Cactus -> Green
+Dandelion -> Yellow
+Rose -> Red
+Bone -> White
+Ink -> Black
+!Carpet
+!Stained Clay
+Stone Bricks
+Sandstone
+Smooth Sandstone
+Chiseled Sandstone
+Iron Bars
+Flower Pot
+Jack-o-lantern
+Jukebox
+Music Discs
+
+Tools Advanced (Blacksmith):
+Shears (Leaves, Cobweb, Vines)
+Bucket
+Flint and Steel
+Anvil
+!Saddle - use on horse
+Carrot on a Stick
+
+Machines (Librarian):
+Compass
+Clock
+Map
+Zoomed out Map
+TNT
+Minecart
+Rail
+Minecart with Chest
+Minecart with Furnace
+Minecart with TNT
+
+Farming Master (Farmer):
+Cake
+!Golden Apple - add, recipe change to gold ingots
+Enchanted Golden Apple
+
+Monsters Master (Priest):
+!Wolf - add
+Ocelot
+Mooshroom
+!Leads
+!Name Tags
+
+
+
+
+Tier 6
+
+Mysteries (Priest):
+Enchantment Table
+Enchanting
+Enchanted Books
+Ender Pearl
+
+Ores Advanced (Blacksmith):
+Obsidian
+
+Machines Advanced (Librarian):
+Redstone Circuits
+Button
+Pressure Plate
+Lever
+Redstone Torch
+Tripwire Hook
+Weighted Pressure Plate
+Iron Door
+Redstone Repeater
+Powered Rail
+Detector Rail
+Note Block
+Dispenser
+Piston
+!Sticky Piston (Slimes)
+Trapped Chest
+Hopper
+Minecart with Hopper
+Dropper
+Activator Rail
+
+
+
+
+Tier 7
+
+The Nether (Priest):
+Nether Portal
+Nether Fortres
+Zombie Pigmen
+Golden Nugget
+!Golden Apple - remove, recipe change to gold ingots
+!Glistering Melon - add, recipe change to 8 gold nuggets
+Ghast
+Ghast Tear
+Magma Cube
+Magma Cream
+Blaze
+Blaze Rod
+Blaze Powder
+Fire Charge
+Wither Skeleton
+Mob heads
+Wither
+Nether Star
+Beacon
+
+Ores Master (Blacksmith):
+Netherrack -> Nether Brick -> Nether Brick Block
+Netherbrick Fence
+Nether Quartz
+
+Machines Master (Librarian):
+Glowstone -> Glowstone Dust
+Redstone Lamp
+Redstone Comparator
+Daylight Sensor
+Fire works
+
+
+
+
+Tier 8
+
+Brewing (Priest):
+Brewing Stand
+Cauldron
+Glass Bottle
+Potions
+Soul Sand
+Nether Wart
+Blaze Powder
+Fermented Spider Eye
+Magma Cream
+Ghast Tear
+!Glistering Melon - remove, recipe change to 8 gold nuggets
+Golden Carrot
+
+
+
+
+Tier 9
+
+The End (Priest):
+Eye of Ender
+Ender Chest
+Stronghold
+Silverfish
+End Portal
+End Stone
+Ender Dragon
+Dragon Egg

@@ -1,0 +1,1 @@
+priority:200;max:2;native:Library;around:4;startLevel:-1;orientation:3;width:8;length:11;male:librarianmale;female:librarianfemale;shop:libraryshop;tag:Patrol;pathlevel:1

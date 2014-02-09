@@ -1,0 +1,3 @@
+sells=saddle,leatherhelmet,leatherchest,leatherlegs,leatherboots,porkchopscooked,beefcooked,emerald
+
+buys=coal,charcoal,porkchops,beefraw,gold,emerald

@@ -1,0 +1,3 @@
+sells=saddle,leatherhelmet,leatherchest,leatherlegs,leatherboots,emerald
+
+buys=coal,charcoal,gold,emerald

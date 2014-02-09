@@ -1,0 +1,1 @@
+native:gallows;name_en:gallows;around:1;startLevel:-3;orientation:3;width:8;length:5;startingGood:bone,1,2,8;startingGood:rottenflesh,1,1,15;startingGood:gold,.5,1,1;startingGood:leatherboots,0.5,1,1;startingGood:leatherhelmet,.5,1,1;startingGood:steelboots,0.25,1,1;startingGood:diamondboots,0.05,1,1;startingGood:lead,1,1,1

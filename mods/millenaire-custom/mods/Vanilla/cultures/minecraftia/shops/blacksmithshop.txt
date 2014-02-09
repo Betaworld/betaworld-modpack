@@ -1,0 +1,3 @@
+sells=steelsword,steelaxe,steelpickaxe,steelshovel,steelhoe,steelhelmet,steelchest,steellegs,steelboots,chainhelmet,chainchest,chainlegs,chainboots,diamondsword,diamondaxe,diamondpickaxe,diamondshovel,diamondhoe,diamondhelmet,diamondchest,diamondlegs,diamondboots,emerald
+
+buys=coal,charcoal,iron,gold,diamond,emerald

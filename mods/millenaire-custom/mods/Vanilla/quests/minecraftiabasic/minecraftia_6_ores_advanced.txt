@@ -1,0 +1,30 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/blacksmith,requiredtag=minecraftia_blacksmith
+forbiddenplayertag:minecraftia_ores_advanced1
+requiredplayertag:minecraftia_tools_advanced_complete
+requiredplayertag:minecraftia_cooking_complete
+requiredplayertag:minecraftia_ores_complete
+
+step:new
+label_english:Down to the depths
+description_english:Welcome back. I do believe it is now time for you to learn about obsidian, for you will need it soon. Obsidian is created when water meets standing lava, and only a diamond pick is strong enough to mine it. Obsidian is strong enough to withstand an explosion from a creeper or TNT. Please bring me four obsidian.
+description_success_english:Glad you'll do it even though it's dangerous.
+description_refuse_english:Suit yourself.
+villager:startvillager
+duration:7168
+setplayertagsuccess:minecraftia_ores_advanced1
+
+step:new
+label_english:The black rock
+description_english:Have you braved the depths and brought back some obsidian?
+description_success_english:Excellent job! Hang on to this, you'll probably need it. Good luck to you!
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_ores_advanced1
+villager:startvillager
+duration:7168
+setplayertagsuccess:minecraftia_ores_advanced_complete
+requiredgood:obsidian,4
+rewardgood:obsidian,4
+rewardreputation:128

@@ -1,0 +1,9 @@
+name:Gallows
+weight:50
+radius:8
+biome:dead forest
+biome:ominous woods
+
+
+//starting buildings:
+centre:gallows

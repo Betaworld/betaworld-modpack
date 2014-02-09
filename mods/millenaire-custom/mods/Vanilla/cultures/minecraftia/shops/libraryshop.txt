@@ -1,0 +1,3 @@
+sells=bookshelves,glass,compass,clock,emerald
+
+buys=paper,book,bookandquill,written_book,gold,emerald

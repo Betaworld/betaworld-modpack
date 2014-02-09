@@ -1,0 +1,89 @@
+name:Minecraftia Desert Village
+weight:10
+radius:80
+carriesraid:false
+biome:desert
+
+//extraBiomes mod
+biome:mountain ridge
+biome:mountainous desert
+biome:mountain_ridge
+biome:mountainous_desert
+
+//biomes o plently mod
+biome:desert island
+biome:oasis
+biome:sand forest
+biome:desert_flat
+biome:desert_lakes
+biome:desert_oasis
+biome:desert_border
+biome:desert flat
+biome:desert lakes
+biome:desert oasis
+biome:desert border
+biome:dunes
+biome:mountain desert
+biome:sandstonehill
+biome:desert_hills
+
+//path materials
+pathmaterial:pathsandstone
+
+//starting buildings:
+centre:desert_townhall
+start:desert_butcher
+start:desert_church
+start:desert_forge
+start:desert_housecarrot
+start:desert_housecarrotlarge
+start:desert_housepotato
+start:desert_housepotatolarge
+start:desert_housewheat
+start:desert_housewheatlarge
+start:desert_housetiny1
+start:desert_housetiny2
+start:desert_housetiny3
+start:desert_housetiny4
+start:lamppost
+start:desert_library
+start:desert_well
+
+//player buildings
+player:desert_playerplotlarge
+player:desert_playerhouselarge
+
+//to be built in priority
+
+//to be built after the core ones
+
+//never to be built
+never:townhall
+never:butcher
+never:church
+never:forge
+never:housecarrot
+never:housepotato
+never:housewheat
+never:housecarrotlarge
+never:housepotatolarge
+never:housewheatlarge
+never:housetiny1
+never:housetiny2
+never:housetiny3
+never:housetiny4
+never:library
+never:well
+never:playerplotlarge
+never:playerhouselarge
+never:pigman_butcher
+never:pigman_church
+never:pigman_forge
+never:pigman_housecarrot
+never:pigman_housecarrotlarge
+never:pigman_housetiny1
+never:pigman_housetiny2
+never:pigman_housetiny3
+never:pigman_housetiny4
+never:pigman_library
+never:pigman_townhall

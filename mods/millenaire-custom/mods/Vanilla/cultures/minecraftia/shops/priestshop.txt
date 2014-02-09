@@ -1,0 +1,3 @@
+sells=eye_of_ender,bottle_o_enchanting,redstone,glowstone,emerald
+
+buys=gold,emerald

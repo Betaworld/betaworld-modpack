@@ -1,0 +1,102 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/librarianfemale,type=minecraftia/librarianmale,requiredtag=minecraftia_librarian
+forbiddenplayertag:minecraftia_machines1
+requiredplayertag:minecraftia_ores_complete
+requiredplayertag:minecraftia_books_complete
+requiredplayertag:minecraftia_armor_and_weapons_complete
+requiredplayertag:minecraftia_general_complete
+
+step:new
+label_english:We have the technology
+description_english:Hello again. It's time you learned about redstone all that it can do. We're going to start small. Redstone is a mineral that can carry a charge and power machines. A simple, and very useful device that redstone can power is a compass. A compass will allow you to find your way back to your home. To make a compass place some redstone in the center of your workbench and four iron ingots in a cross around it. Bring a compass to me.
+description_success_english:I'll be waiting.
+description_refuse_english:Stay in school.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_machines1
+
+step:new
+label_english:To find your way
+description_english:Have you made a compass yet?
+description_success_english:Excellent, you're first redstone powered device! Let us now make a similarly useful device - a clock. A clock will allow you to tell what time of day it is while in the dark caverns underground. To make a clock place a piece of redstone in the center of your workbench, and four pieces of gold in a cross around it.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_machines2
+requiredgood:compass,1
+rewardgood:compass,1
+rewardreputation:32
+
+step:new
+label_english:No time like the present
+description_english:Did you make a clock?
+description_success_english:Good. Let us continue in our quest for easier exploration. Next we have maps. A map is created by placing a compass in the center of your workbench and then eight paper in a ring around it. Maps will fill in their area as you walk around. Please bring me a map.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_machines3
+requiredgood:clock,1
+rewardgood:clock,1
+rewardreputation:32
+
+step:new
+label_english:Map it all
+description_english:Have you a map for me to see?
+description_success_english:Now, one interesting thing you can do with a map is make it cover a bigger area. To do this, place the map in the center of your workbench and surround it with eight pieces of paper. You can do this up to four times to create ever increasing map sizes. That's all for exploration and survival for now. Next we have kind of an oddball but it helps in mining quickly. We're going to make TNT. TNT is made by placing five gunpowder in an 'X' in your workbench and then four sand sand in the empty slots. Can you make me a piece of TNT?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_machines4
+requiredgood:map,1
+rewardgood:empty_map,1
+rewardreputation:32
+
+step:new
+label_english:It's dynomite!
+description_english:How's that TNT coming along?
+description_success_english:Good. Now you can blow all kinds of things to smitherines. To set off the TNT just lite it with some flint and steel. You'll have a few seconds before it blows, so run when you do. It's time to talk about easy long distance travel. Minecarts and their rails can get you from place to place rather quickly, but you'll of course need to lay the rails first. There are some abandoned mines with rails in the underground, but be careful, they are infested with spiders. Let's make a minecart and some rails. To make a minecart just place five iron ingots in a 'U' shape in your workbench. To make some rails place three iron ingots in the left column of your workbench, three iron ingots in the right column, and a single stick in the center. Please make a minecart and some rails.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines4
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_machines5
+requiredgood:tnt,1
+rewardgood:tnt,1
+rewardreputation:32
+
+step:new
+label_english:Taking a trip
+description_english:Did you build a minecart and rails?
+description_success_english:Excellent. Once you place rails on the ground you can place a minecart on the tracks and get from place to place faster. Keep in mind that a minecart won't move on it's own, you'll have to push it a little or take it down an incline. Now we can put some intesting things in minecarts. You can put a chest in a minecart to transport goods from one location to another without having to walk there. To make a minecart with a chest, just place the minecart and a chest in your workbench. We can also put a furnace or TNT in a minecart in the same way. Please make a minecart with a chest, one with a furnace, and one with TNT.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines5
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_machines6
+requiredgood:minecart,1
+requiredgood:rail,16
+rewardgood:minecart,1
+rewardgood:rail,16
+rewardreputation:32
+
+step:new
+label_english:Bring your stuff
+description_english:Have you combined some minecarts with various things?
+description_success_english:Good. We will get into more advanced machines later. Until next time!
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_machines6
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_machines_complete
+requiredgood:minecart_with_chest,1
+requiredgood:minecart_with_furnace,1
+requiredgood:minecart_with_tnt,1
+rewardgood:minecart_with_chest,1
+rewardgood:minecart_with_furnace,1
+rewardgood:minecart_with_tnt,1
+rewardreputation:64

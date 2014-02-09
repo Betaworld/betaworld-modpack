@@ -1,0 +1,27 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/chief
+definevillager:key=blacksmith,type=minecraftia/blacksmith,relatedto=startvillager,relation=samevillage
+definevillager:key=farmer,type=minecraftia/wheatfarmerfemale,type=minecraftia/wheatfarmermale,type=minecraftia/carrotfarmerfemale,type=minecraftia/carrotfarmermale,type=minecraftia/potatofarmerfemale,type=minecraftia/potatofarmermale,relatedto=startvillager,relation=samevillage
+definevillager:key=butcher,type=minecraftia/butchermale,type=minecraftia/butcherfemale,relatedto=startvillager,relation=samevillage
+definevillager:key=chiefpartner,type=minecraftia/chiefpartner,relatedto=startvillager,relation=samehouse
+definevillager:key=librarian,type=minecraftia/librarianfemale,type=minecraftia/librarianmale,relatedto=startvillager,relation=samevillage
+definevillager:key=priest,type=minecraftia/priest,relatedto=startvillager,relation=samevillage
+forbiddenplayertag:minecraftia_intro_complete
+
+step:new
+label_english:Adventurer's beginning
+description_english:Ahh, a new adventurer! Allow me to introduce myself. I am $startvillager_villagername$, chief of this village. This world is a harsh one; allow me to give you some advice. Don't go out at night, that's when the monsters come. If I were you, I would build myself a house. I just request that you do not build it within our village limits. Check the board in the Town Hall to know what we claim as ours. Now, to help you build a shelter for yourself, you will need some tools. Please speak with our Blacksmith and he will get you started.
+description_success_english:Excellent! Allow me to give you this as a sign of our hospitality. Please go see the blacksmith, he will help you.
+description_refuse_english:Well then, good luck surviving!
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_intro_complete
+settagsuccess:blacksmith,minecraftia_blacksmith
+settagsuccess:farmer,minecraftia_farmer
+settagsuccess:butcher,minecraftia_butcher
+settagsuccess:chiefpartner,minecraftia_chiefpartner
+settagsuccess:librarian,minecraftia_librarian
+settagsuccess:priest,minecraftia_priest
+rewardgood:beefcooked,1

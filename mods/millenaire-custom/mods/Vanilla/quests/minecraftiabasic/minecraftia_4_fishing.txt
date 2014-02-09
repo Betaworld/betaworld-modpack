@@ -1,0 +1,68 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/wheatfarmerfemale,type=minecraftia/wheatfarmermale,type=minecraftia/carrotfarmerfemale,type=minecraftia/carrotfarmermale,type=minecraftia/potatofarmerfemale,type=minecraftia/potatofarmermale,requiredtag=minecraftia_farmer
+forbiddenplayertag:minecraftia_fishing1
+requiredplayertag:minecraftia_farming_advanced_complete
+requiredplayertag:minecraftia_cooking_complete
+
+step:new
+label_english:To teach a man
+description_english:Ahh, $name. I'm going to teach you how to fish. But before you can catch fish you will of course need a fishing rod. To create a fishing rod place three sticks diagonally in your workbench and then two pieces of string hanging down from the top stick.  Go make yourself a shiny new fishing rod.
+description_success_english:It'll feed you for life.
+description_refuse_english:You'll want one sooner or later.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_fishing1
+
+step:new
+label_english:Some sticks and string
+description_english:Did you create a fishing rod yet?
+description_success_english:Great! Now we can start fishing. To fish, just cast your line in any body of water. When you see the bobber go down and back up again that means you have a fish on your line. Quick as you can reel it back in. Go catch me a few fish.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_fishing1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_fishing2
+requiredgood:fishing_rod,1
+rewardgood:fishing_rod,1
+rewardreputation:32
+
+step:new
+label_english:Sashimi time
+description_english:Have you caught some fish?
+description_success_english:Excellent. Now, raw fish really aren't that healthy, so let's cook it. You cook fish just like beef, chicken, and porkshops. Why don't you cook off that fish you have now?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_fishing2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_fishing3
+requiredgood:fishraw,4
+rewardgood:fishraw,4
+rewardreputation:32
+
+step:new
+label_english:Fishsticks
+description_english:Is the fish ready?
+description_success_english:Very good. Cooked fish will provide you with more sustanence than raw fish. Finally, I want to teach you about boats, which you can fish from or just take a lazy stroll down the river. To make a boat just place five wooden planks in your workbench in a 'U' shape. Let's make a boat now.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_fishing3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_fishing4
+requiredgood:fishcooked,4
+rewardgood:fishcooked,4
+rewardreputation:32
+
+step:new
+label_english:Sailing the ocean blue
+description_english:How's that boat coming along?
+description_success_english:Ahh, there you have it. Well, that's all I wanted to mention for now. Until next time!
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_fishing4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_fishing_complete
+requiredgood:boat,1
+rewardgood:boat,1
+rewardreputation:64

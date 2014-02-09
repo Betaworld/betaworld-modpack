@@ -1,0 +1,90 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/butchermale,type=minecraftia/butcherfemale,requiredtag=minecraftia_butcher
+forbiddenplayertag:minecraftia_livestock1
+requiredplayertag:minecraftia_tools_complete
+
+step:new
+label_english:Raising the barn
+description_english:Hello adventurer! I've been asked to teach you about our local livestock and how to raise them. But first, let's talk about hunger and eating. As time passes you will get hungry and need to eat. If too much time passes before you eat your body will be wracked with pain. If you keep yourself with a full belly, all your wounds will heal over time as well. So let's start raising some livestock so we can have some nice meat to eat. We can start with cows. When slaughtered cows provide us with raw beef and leather. You can eat the raw beef, but it doesn't provide much nurishment. Leather has various uses which you will learn about later. If you have a bucket, you can also milk a cow. Milk is used in the baking of cakes and can also cure you of poison. You can breed two cows together, as long as they are in close proximity to one another, by feeding them wheat. After breeding, a cow won't want to breed for a while. Now, here's a couple of bunches of wheat. Go find some cows, breed them, then slaughter the adults and bring me back two raw beef and two leather.
+description_success_english:Don't forget to breed first, slaughter second!.
+description_refuse_english:Squimish are we?
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_livestock1
+rewardgood:wheat,2
+
+step:new
+label_english:Beef! It's what's for dinner!
+description_english:Do you have the beef and leather?
+description_success_english:Excellent! Our next animal we raise for food is the pig. Pigs are bred by feeding them carrots and are slaughtered for raw pork. Raw pork is just about as healthy as raw beef. Again, we'll get into cooking later. Now go get me some pork!
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_livestock1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_livestock2
+requiredgood:beefraw,2
+requiredgood:leather,2
+rewardgood:beefraw,2
+rewardgood:leather,2
+rewardgood:carrot,2
+rewardreputation:32
+
+step:new
+label_english:Pork. The other white meat.
+description_english:Everything's better with bacon.
+description_success_english:Good! Now for our final food bearing animal, the chicken. Raw chicken does not satiate your hunger by any meaning of the word, and it's possible to become poisoned when eating it. Best to cook it first. Chickens will also give up their feathers at times, which can be used for crafting some useful items that I won't get into here. The last unique thing to understand about chickens is that they lay eggs. As with milk from cows the eggs are used in baking cakes. Eggs have another purpose however. If smashed a baby chicken might pop out. Oh, and before I forget, you can breed chickens with seeds. Bring me one egg, two feathers, and three pieces of raw chicken.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_livestock2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_livestock3
+requiredgood:porkchops,3
+rewardgood:porkchops,3
+rewardgood:seeds,2
+rewardreputation:32
+
+step:new
+label_english:Tastes like chicken
+description_english:How goes the chicken hunt?
+description_success_english:Very good. I have a few more animals that we raise to tell you about. These are animals that we don't raise for their food, but they are useful for other things. First is the sheep, raised for it's wool. Like cows, sheep are bred with bunches of wheat. When slaughtering a sheep you can remove the wool, however there is a better way. If you have a pair of shears you can remove the wool without harming the sheep. Furthermore, you can use various dyes on living sheep to make sheep grow wool of all kinds of different colors. We'll teach you about crafting shears and making dyes later. For now, please bring me three white wool.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_livestock3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_livestock4
+requiredgood:egg,1
+requiredgood:feather,2
+requiredgood:chickenmeat,3
+rewardgood:egg,1
+rewardgood:feather,2
+rewardgood:chickenmeat,3
+rewardgood:wheat,2
+rewardreputation:32
+
+step:new
+label_english:It's a wooly situation
+description_english:The sheep is the one that goes 'baaa'.
+description_success_english:Well done. Now we will go into horses and their variations, Donkeys and Mules. Horses and Donkeys can be found in most Plains type areas grazing on the grass there. Taming a horse or donkey is a delicate process of letting the animal to get to trust you. You must find a wild one and hop on it's back. Now it won't trust you at first and it will throw you off. But keep trying as after a little while it will come to accept you. Once you have some tamed horses or donkeys they can be bred with golden apples or golden carrots, which you will learn about much later. Speaking of breeding, if you breed a horse with a donkey you can get a mule. In fact, it's the only way to get a mule. One nice thing to mention about donkeys and mules is their ability to carry your belongings on long journeys if you strap a chest to them. Oh, and if your horse ever gets damaged, just give it some hay bales and it will feel much better. Hay bales are made by filling your workbench ful of wheat. Why don't you go make a hay bale now and bring it to me.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_livestock4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_livestock5
+requiredgood:wool_white,3
+rewardgood:wool_white,3
+rewardreputation:32
+
+step:new
+label_english:Time to bale
+description_english:Bundled any hay bales recently?
+description_success_english:Good. Come and see me when you're ready and I will teach you about cooking.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_livestock5
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_livestock_complete
+requiredgood:hay_bale,1
+rewardgood:hay_bale,1
+rewardreputation:64

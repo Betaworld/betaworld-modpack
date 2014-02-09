@@ -1,0 +1,1 @@
+native:Ice Igloo;name_en:Ice Igloo;around:0;startLevel:-10;orientation:3;width:13;length:13;male:icefisherman;female:icefisherwoman;tag:fishingspot;shop:icefishery

@@ -1,0 +1,1 @@
+priority:25;max:4;native:Golem;around:0;startLevel:-1;orientation:3;width:3;length:3

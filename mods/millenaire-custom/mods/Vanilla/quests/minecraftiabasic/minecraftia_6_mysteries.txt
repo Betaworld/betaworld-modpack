@@ -1,0 +1,28 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/priest,requiredtag=minecraftia_priest
+forbiddenplayertag:minecraftia_mysteries1
+requiredplayertag:minecraftia_ores_advanced_complete
+
+step:new
+label_english:Ender mysteries
+description_english:Welcome back, $name. You are turning out to be someone to keep an eye on. It is time you were told about some of the deeper mysteries of this place. There is one mystery that we have gleamed from the enders, and that is how to capture some of their power into objects. We call this enchanting. To enchant your weapons and armor you will need what we call an enchantment table. To make an enchantment table, place three obsidian along the bottom of your workbench, one obsidian in the center, a diamond to each side of this obsidian, and finally a book on top. Let's see if you can create this mystery.
+description_success_english:We shall see you in time.
+description_refuse_english:It is up to you, adventurer.
+villager:startvillager
+duration:7168
+setplayertagsuccess:minecraftia_mysteries1
+
+step:new
+label_english:A transfer of power
+description_english:Have you crafted an enchanting table?
+description_success_english:Well done, $name! Now I bet you want to know how to actually perform enchanting. Enchanting power into an object requires transferring something of yourself to the object. By itself, an enchanting table won't be able to transfer much energy. To increase how much energy an enchanting table can transfer it needs to draw on other knowledge. Placing bookshelves around the enchanting table will accomplish this. Now, to enchant armor or weapons just place what you want to enchant on the left side of the enchanting table and just select how much knowledge you want to transfer. This is rather uncontrolled as you never know what the power you have transferred will coalesce into. There is a more controlled way to do this. You can enchant a book using the uncontrolled enchantment table, then take that newly enchanted book and transfer the enchantment to a weapon or armor using an anvil. I must warn you, this second transfer will cost you more of yourself, but allows you to pick and choose what you ultimately want. Another ender mystery I must speak to you about is the use of the pearls endermen carry. If you take an ender pearl and throw it, you will be instantaneously transported to the place it lands. I only mention this now that I have taught you about enchanting. For you see, instantaneously transferring from place to place does not come without cost. It will harm you. However, there exist enchantments that can lessen the impact. What they are is not within my knowledge, you will have to figure this out on your own. I believe you are perfectly capable of this. We will speak of more mysteries at another time.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_mysteries1
+villager:startvillager
+duration:7168
+setplayertagsuccess:minecraftia_mysteries_complete
+requiredgood:enchantment_table,1
+rewardgood:enchantment_table,1
+rewardreputation:64

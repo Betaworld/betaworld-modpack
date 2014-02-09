@@ -1,0 +1,8 @@
+name:Abandoned Ranch
+weight:100
+radius:16
+
+biome:outback
+
+//starting buildings:
+centre:abandonedranch

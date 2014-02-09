@@ -1,0 +1,85 @@
+culture.minecraftia=Minecraftia
+
+//Goals (text displayed above the villager when he is doing it)
+goal.cookcharcoal=Compressing wood into charcoal
+goal.cook_gold_ore=Refining gold ore
+
+goal.make_eye_of_ender=Crafting an eye of ender
+goal.make_compass=Crafting a compass
+goal.makediamondhoe=Crafting a diamond hoe
+goal.makediamondlegs=Crafting diamond leggings
+goal.make_shears=Crafting shears
+goal.make_redstone=Compressing stone into redstone
+goal.makechainboots=Crafting chain boots
+goal.make_clock=Crafting a clock
+goal.makechainhelmet=Crafting a chain helmet
+goal.make_saddle=Crafting a saddle
+goal.makediamondchest=Crafting a diamond chestplate
+goal.make_blaze_powder=Crafting blaze powder
+goal.makediamondshovel=Crafting a diamond shovel
+goal.make_flint_and_steel=Crafting flint and steel
+goal.makediamondpickaxe=Crafting a diamond pickaxe
+goal.makediamondhelmet=Crafting a diamond helmet
+goal.makediamondsword=Crafting a diamond sword
+goal.makediamondaxe=Crafting a diamond axe
+goal.makediamondboots=Crafting diamond boots
+goal.makechainlegs=Crafting chain leggings
+goal.make_cookie=Baking cookies
+goal.make_glowstone=Compressing redstone into glowstone
+goal.make_bottle_o_enchanting=Crafting a bottle o' enchanting
+goal.makechainchest=Crafting a chain chestplate
+
+//Trade helps
+tradehelp.wool_colored=Colored wool is only used for decoration.
+
+tradehelp.dye_white=Bonemeal is used to dye wool white and to make crops grow.
+tradehelp.dye_black=Ink is used to make wool black and for writing books.
+tradehelp.dye_colored=Colored dye is used to make colored wool.
+
+tradehelp.plant_soil=Dirt and grass are used as soil for carrots, potatoes, sugarcane, and wheat.
+tradehelp.melon_seeds=Villages use melon seeds to plant melons.
+tradehelp.sapling=Villages plant saplings to grow into trees for wood.
+
+tradehelp.wheat=Wheat is used to bake bread, cakes, and cookies. It is also used to breed sheep and cows.
+tradehelp.sugarcane=Sugarcane can be refined into sugar. It can also be compressed into paper.
+
+tradehelp.golden_apple=Golden apples will fill you up for a long time.
+
+tradehelp.snow_and_ice=Snow and ice are sometimes used as building materials in cold climates.
+tradehelp.leaves=Leaves can be used to make nice looking hedges.
+tradehelp.obsidian=Obsidian can be created by mixing water and lava and is very durable.
+tradehelp.netherrack=Netherrack can only be obtained in the Nether and burns purpetually. This makes it a good material for fireplaces.
+tradehelp.glowstone=Glowstone can only be obtained in the Nether and gives off an unearthly glow. It can be used as an alternative to torches.
+
+tradehelp.weapon_material=This is used in the creation of weapons.
+tradehelp.armor_material=This is used in the creation of armor.
+tradehelp.armor_and_weapon_material=This is used in the creation of armor and weapons.
+tradehelp.potion_material=This is used in the creation of potions.
+tradehelp.dye_material=This is used in the creation of dyes.
+
+tradehelp.coal=Coal and charcoal can be used as a smelting source and also to make torches.
+tradehelp.gunpowder=Gunpowder can be used in potions and also for making fireworks and TNT.
+tradehelp.paper=Paper can be made into maps and books.
+tradehelp.redstone=Redstone is the primary power source of the world and is also used in potions.
+tradehelp.enderpearl=Enderpearls are a mysterious object carried by endermen and used to create an eye of ender.
+tradehelp.bucketwater=It's a bucket of water.
+tradehelp.bucketlava=A bucket of lava can be used as a smelting source.
+tradehelp.movement_vegitation=Vines and lily pads can make traversing the wilds easier.
+tradehelp.book=Books are used in the creation of bookshelves and enchantment tables.
+tradehelp.book_and_quill=A book and quill is used for recording information and stories.
+tradehelp.blaze_powder=Blaze powder is used in potions and to create magma cream and an eye of ender.
+tradehelp.emerald=Villagers will trade emeralds for money.
+tradehelp.gold_nugget=Gold nuggets can be obtained from zombie pigmen and can be compressed into gold ingots.
+tradehelp.ghast_tear=The tear of a fallen ghast.
+tradehelp.eye_of_ender=Legend has it that an eye of ender can lead you to the endermens' home.
+tradehelp.slimeball=Slimeballs are used to craft sitcky pistons and make magma cream.
+tradehelp.blaze_rod=Blaze rods are carried by Blazes of the Nether and can be refined into blaze powder. They are also used to build brewing stands.
+tradehelp.saddle=Saddle can be put on pigs and horses for riding.
+tradehelp.bottle_o_enchanting=The concentrated energy of experience and memory.
+tradehelp.clock=Tells the time of the day or night.
+tradehelp.compass=Shows the direction to your bed and can be used in the creation of maps.
+tradehelp.written_book=A finished story or journal.
+
+tradehelp.workbench=A workbench is used to craft objects and materials.
+tradehelp.bookshelves=Bookshelves hold our books.
+tradehelp.enchantment_table=An enchantment table can be used to enchant tools, armor, weapons, and books.

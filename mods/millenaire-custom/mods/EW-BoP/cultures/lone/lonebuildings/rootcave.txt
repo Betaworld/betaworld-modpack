@@ -1,0 +1,7 @@
+name:Root Cave
+weight:100
+radius:11
+biome:sludgepit
+
+//starting buildings:
+centre:rootcave

@@ -1,0 +1,77 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/priest,requiredtag=minecraftia_priest
+forbiddenplayertag:minecraftia_monsters_advanced1
+requiredplayertag:minecraftia_armor_and_weapons_complete
+requiredplayertag:minecraftia_cooking_complete
+requiredplayertag:minecraftia_farming_advanced_complete
+
+step:new
+label_english:The dark room
+description_english:Hello, my child. I am the local priest, $startvillager_villagername$. I hear that you have been delving deep into the underground and uncovering the mysteries of the world. I would like to issue a word of warning on what you might find below and above the ground. Ancient temples, possible built by the enders and holding old ender power. Underground you will find ancient dungeons with monsters bound by ender power. Monsters will continuously pour from the dungeon unless completely lit in an eight meter radius or by destroying it.
+description_success_english:I have much more to teach you, don't wander far.
+description_refuse_english:Good luck to you then.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_advanced1
+
+step:new
+label_english:The ancient tomb
+description_english:Let's talk some about the old tombs in the desert. It is unknown whose tombs they are, but I do know that whomever they were did not want to be disturbed. For you see, they trapped their tombs. Careful when plundering those tombs.
+description_success_english:I will teach you more, if you will listen.
+description_refuse_english:You'll be missing out.
+steprequiredplayertag:minecraftia_monsters_advanced1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_advanced2
+
+step:new
+label_english:The temple in the trees
+description_english:I must speak to you about the ancient temples in the jungle. Raised to an unknown god, it is said the people that built them kept treasures within. But don't be hasty, they kept their treasures well protected. Try not to die.
+description_success_english:There is more to tell, come speak with me again some time.
+description_refuse_english:I will see you again.
+steprequiredplayertag:minecraftia_monsters_advanced2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_advanced3
+
+step:new
+label_english:A house in the swamp
+description_english:Have you noticed any huts in the swamps? Those are where the witches live. Outcasts of society, they live alone in swamps, brewing evil potions. They tend to carry the materials of their trade with them in case they need a quick fix. I would advise you to stay clear of them until you are well prepared.
+description_success_english:Keep up the good work. There is more to teach.
+description_refuse_english:As you wish.
+steprequiredplayertag:minecraftia_monsters_advanced3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_advanced4
+
+step:new
+label_english:They go squish
+description_english:Welcome back. Moving right along, another denizen of the swamps are slimes. They are rarely seen there though. You are more likely to encounter them anywhere underground. Careful when fighting them however, as when you knock chuncks off of them the chunks will still live until they get too small to sustain themselves. Squishing a slime will give you a slimeball, which have various interesting uses.
+description_success_english:Beware the green goo.
+description_refuse_english:You don't know what you're missing.
+steprequiredplayertag:minecraftia_monsters_advanced4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_advanced5
+
+step:new
+label_english:Iron man
+description_english:Hello again. Today I wish to speak with you about another protector of the people, he iron golem. Unlike creatures of this world they do not naturally exist in the wild, they must be created. It is unknown who created the first iron golem, however the knowledge has been passed on through the ages. Iron golems will wander around and attack anything hostile that comes near them. To create an iron golem you will need much iron. As I'm sure the blacksmith already informed you, iron ingots can be compressed into one large block of iron by filling your workbench with the ingots. You will need four of these large blocks of iron. To make the body of an iron golem, place one iron block on the ground, one directly on top of the first, and one each on opposite sides of the second. It should look like a standing 'T' of iron. Now to breath life into the golem, just place a pumpkin on top of it all as the head. Voila! New life!
+description_success_english:Iron golems will wander, so fencing in the area you want them to protect is not unheard of.
+description_refuse_english:The mysteries of life do not intrigue you?
+steprequiredplayertag:minecraftia_monsters_advanced5
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_advanced6
+
+step:new
+label_english:The snowman
+description_english:Good to see you still around. I would like to tell you about another golem, the snow golem. Like the iron golem, it is unknown who first created them, but we do know how to create more. To create a snow golem, place a block of snow on the ground and a second block just above it. Once again, place a pumpkin on top to give it life. Snow golems will wander around slowly, leaving trails of snow behind and will melt in water. They will also throw snowballs at hostile creatures to help defend you.
+description_success_english:Snow golems will protect you best in an area where there is much snow.
+description_refuse_english:Good luck to you.
+steprequiredplayertag:minecraftia_monsters_advanced6
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_monsters_advanced_complete

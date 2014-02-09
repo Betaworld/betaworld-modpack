@@ -1,0 +1,1 @@
+native:Sunken Hut;name_en:Sunken Hut;around:4;startLevel:-5;orientation:3;width:7;length:7;startinggood:bowlempty,1,1,1;startinggood:bread,0.8,1,6;startinggood:diamond,.01,1,2

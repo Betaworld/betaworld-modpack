@@ -1,0 +1,1 @@
+native:Root Cave;name_en:Root Cave;around:1;startLevel:-5;orientation:3;width:11;length:11;startingGood:stick,1,2,20;startingGood:woodaxe,.9,1,1;startingGood:steelaxe,.5,1,1;startingGood:diamondaxe,.03,1,1;startingGood:string,.7,1,5;startingGood:stoneshovel,.5,1,1;

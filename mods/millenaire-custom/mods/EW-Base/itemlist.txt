@@ -1,0 +1,23 @@
+//Note pour les utilisateurs de Windows: si vous voyez le fichier entier sur une seule ligne, ouvrez-le avec PSPAd ou UltraEdit plutôt que Notepad
+
+//Clé;id de l'objet;meta;nom (indificatif seulement)
+//Les id d'objets commencant par mln auront le numéro de la série d'objets Millénaire ajouté (ex: mln0 est en fait 1515+0 par défaut)
+
+//Tout fichier text mit dans ce dossier peut contenir de nouvelles définitions d'objets, y compris venant d'autres mods
+
+//Note to Windows users: if you see the entire file in one line, open it using PSPad or UltraEdit instead of Notepad
+
+//Item key;item id;item meta;label (indicative only)
+//Item ids starting with mln will have the item range value added to them; i.e. mln0 is actually 0+1515 (by default)
+
+glowstone_dust;348;0;Glowstone Dust
+blaze_powder;377;0;Blaze Powder
+stick;280;0;Stick
+blaze_rod;369;0;Blaze Rod
+bottle_o_enchanting;384;0;Bottle o' Enchanting
+fishing_rod;346;0;Fishing Rod
+jack_o_lantern;91;0;Jack-o-lantern
+skeleton_head;397;0;Skeleton Head
+lead;420;0;Lead
+golden_apple;322;0;Golden Apple
+

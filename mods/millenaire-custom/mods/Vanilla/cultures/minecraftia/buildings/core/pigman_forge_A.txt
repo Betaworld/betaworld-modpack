@@ -1,0 +1,1 @@
+priority:200;max:2;native:Forge;around:4;startLevel:-1;orientation:3;width:9;length:12;male:pigman_blacksmith;shop:blacksmithshop;tag:Patrol;tag:armoury;tag:Oven;pathlevel:1

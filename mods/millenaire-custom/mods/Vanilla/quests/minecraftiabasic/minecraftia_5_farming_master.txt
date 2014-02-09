@@ -1,0 +1,31 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/wheatfarmerfemale,type=minecraftia/wheatfarmermale,type=minecraftia/carrotfarmerfemale,type=minecraftia/carrotfarmermale,type=minecraftia/potatofarmerfemale,type=minecraftia/potatofarmermale,requiredtag=minecraftia_farmer
+forbiddenplayertag:minecraftia_farming_master1
+requiredplayertag:minecraftia_farming_complete
+requiredplayertag:minecraftia_livestock_complete
+requiredplayertag:minecraftia_farming_advanced_complete
+requiredplayertag:minecraftia_tools_advanced_complete
+
+step:new
+label_english:The cake is a lie
+description_english:I have a few more bits of food knowledge to pass on to you. That is how to make cakes, gold apples, and enchanted golden apples. Cake will fill you up very well, however it is not really a food for on the go. You must eat it one slice at a time off of your prefered dining surface. To make a cake place three buckets of milk across the top of your workbench, three bunches of wheat along the bottom, an egg in the center, and one each of sugar in the remaining two spots. Please bake me a cake.
+description_success_english:Good to see you still alive.
+description_refuse_english:You'll be back.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_farming_master1
+
+step:new
+label_english:Let them eat cake
+description_english:Have you baked a cake yet?
+description_success_english:Very good. Golden apples, now, are a bit on the expensive side. To make a golden you will need eight gold ingots. Place the apple in the center of your workbench and the eight gold ingots surrounding it. It might be expensive, but it's well worth it if you can afford it. Now enchanted golden apples are even hard to produce but they will magically heal your wounds. To make an enchanted golden apples, place an apple in the center of your workbench, with eight blocks of gold all around it. I'm not going to ask you to do this, as you may never find enough gold for the job, but if you do, bring me an enchanted golden apple please. Well, as I said earlier this is the end of all I have to teach you. You are hereby a food master. We will meet again.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_farming_master1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_farming_master_complete
+requiredgood:cake_item,1
+rewardgood:cake_item,1
+rewardreputation:256

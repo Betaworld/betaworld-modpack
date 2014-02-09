@@ -1,0 +1,185 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/chiefpartner,requiredtag=minecraftia_chiefpartner
+forbiddenplayertag:minecraftia_general1
+requiredplayertag:minecraftia_farming_complete
+requiredplayertag:minecraftia_livestock_complete
+
+step:new
+label_english:The house decorator
+description_english:Why, hello $name. You know what you need? You need a nice, warm bed to come back to after a hard day of adventuring. A bed will help you pass the night away, and should anything horrible happen to you, give you a place to start again. Let me help you make one. Just take three wooden planks and lay them across the bottom of your workbench. Then take three pieces of wool and lay them horizontally across the workbench right above the wooden planks. There, that's it! Now you try.
+description_success_english:A bed is where the home is.
+description_refuse_english:Well then be forever without rest.
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general1
+
+step:new
+label_english:A nice, warm bed
+description_english:Did you make a bed yet?
+description_success_english:Good to hear. Your house will be homey in no time! Now let's get some lighting in there. To start with take a stick and put a piece of coal or charcoal above it in your workbench. Oh, if you haven't spoken to the blacksmith yet he will explain all about ores, which is what coal would be. And if you haven't spoken to the butcher yet about cooking you can make charcoal by burning logs in a furnace. The light from torches will help keep the monsters away. Go ahead and make some torches and bring them back to me.
+description_refuse_english:You wish to walk around in the dark?
+steprequiredplayertag:minecraftia_general1
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general2
+requiredgood:bed,1
+rewardgood:bed,1
+rewardreputation:32
+
+step:new
+label_english:Let there be light
+description_english:Have you some torches?
+description_success_english:Excellent! Now you can place those on most surfaces, like you see around our village. And here's a little extra to get you started. There are other methods of lighting, but we won't get into those just yet. Let's talk about other things to beautify your home. How about slabs? Slabs are a block of material that will allow you to go up and down inclines without jumping. They are crafted by placing three of the material you want along the bottom of your workbench, horizontally. Why don't you make some wooden slabs for me?
+description_refuse_english:A home should be a work of art.
+steprequiredplayertag:minecraftia_general2
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general3
+requiredgood:torch,4
+rewardgood:torch,16
+rewardreputation:32
+
+step:new
+label_english:Two halves make a whole
+description_english:Did you craft some wooden slabs for me?
+description_success_english:Well done. I bet your house will look great. You can make these slabs with a variety of different materials; you should experiment and find out which ones. Now, I bet you've noticed the stairs leading into almost all our buildings. Stairs, like slabs, allow you to go up and down inclines without jumping. Let's make some stairs. You can make them out of any material you can use for slabs. To make stairs place six of the same material in a triangle formation against the right and bottom of your workbench. The three spots in the upper left should be empty. Go ahead and make me four oak wooden stairs.
+description_refuse_english:Escher would be disappointed in you.
+steprequiredplayertag:minecraftia_general3
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general4
+requiredgood:wooden_slab,6
+rewardgood:wooden_slab,6
+rewardreputation:32
+
+step:new
+label_english:The stairs to nowhere
+description_english:Are stairs making your life easier yet?
+description_success_english:Very good. Now you have probably collected many things and your backpack is probably getting full. I think you need somewhere to put it all. Time to make a chest. To make a chest just place eight wooden planks around all the sides of your workbench, leaving the middle spot free. Make chest for your things now.
+description_refuse_english:Well then carry everything you own around.
+steprequiredplayertag:minecraftia_general4
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general5
+requiredgood:wooden_stairs,4
+rewardgood:wooden_stairs,4
+rewardreputation:32
+
+step:new
+label_english:A chest of things
+description_english:Did you build a chest?
+description_success_english:Good. Now you don't have to carry anything around. If you place two chests next to each other on the ground they will form a bigger, single chest. Now let's put a sign up so everyone know's where your house is. To make a sign place three wooden planks horizontally across the top of your workbench and three horizontally across the middle. Then place a single stick in the bottem center. Please bring me some signs.
+description_refuse_english:Signs are useful, but I guess you don't think so.
+steprequiredplayertag:minecraftia_general5
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general6
+requiredgood:chest,1
+rewardgood:chest,1
+rewardreputation:32
+
+step:new
+label_english:The writing on the wall
+description_english:Have you crafted a sign yet.
+description_success_english:Good. Signs are useful for all kinds of things. Now let's get you a door for your house. To make a door just place three wooden planks vertically along the left side of your workbench and three vertically down the center. You can also make a door out of iron. Let's start with a wooden door.
+description_refuse_english:You won't be saying that when the zombies eat you in your own home.
+steprequiredplayertag:minecraftia_general6
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general7
+requiredgood:sign,3
+rewardgood:sign,3
+rewardreputation:32
+
+step:new
+label_english:One door opens
+description_english:Did you craft a door yet?
+description_success_english:There it is. Having a door will make keeping out monsters easier. Now say you want to make a second story to your house or get up somewhere when you don't have a lot of space. You need a ladder. To make a ladder just place seven sticks in an 'H' formation in your workbench. Bring some ladders to me.
+description_refuse_english:Take the long way up then.
+steprequiredplayertag:minecraftia_general7
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general8
+requiredgood:wooden_door,1
+rewardgood:wooden_door,1
+rewardreputation:32
+
+step:new
+label_english:To the top
+description_english:How's the ladders coming?
+description_success_english:Now you can reach high places or make a second floor to your house. Now let's make some fences to keep your animals in. Fences are great because they're light weight and can't be jumped over. To make a fence just take three sticks and place them along the bottom of your workbench horizontally and three more sticks along the middle row, horizontally. Make some fences are bring them here.
+description_refuse_english:Whatever suits your fancy.
+steprequiredplayertag:minecraftia_general8
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general9
+requiredgood:ladder,3
+rewardgood:ladder,3
+rewardreputation:32
+
+step:new
+label_english:Always good to have a fence
+description_english:Did you make some fences?
+description_success_english:Now those pesky critters won't run away. You can also make fences out of cobblestone. But sometimes you're going to want to enter your fenced off area. For that you'll want a fence gate. So how do you make a fence gate you ask? Well just take two sticks and place them in the bottom and middle left spots of your workbench, then two more sticks in the bottom and middle right spots, and lastly place two wooden planks in between these. Let's make one now.
+description_refuse_english:Good luck getting in and out.
+steprequiredplayertag:minecraftia_general9
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general10
+requiredgood:fence,2
+rewardgood:fence,2
+rewardreputation:32
+
+step:new
+label_english:Shut the gate
+description_english:Do you have a fence gate yet?
+description_success_english:Isn't that nice. Now you can get into your animal pen with ease. Let's do something to cover those wide open holes in your floor left by the ladders. Let's make a trapdoor for them. To make a trapdoor, just place three wooden planks along the bottom of your workbench and then three wooden planks in the middle row of your workbench. Go make a few trapdoors and bring them to me.
+description_refuse_english:Well if that's your decision then.
+steprequiredplayertag:minecraftia_general10
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general11
+requiredgood:fence_gate,1
+rewardgood:fence_gate,1
+rewardreputation:32
+
+step:new
+label_english:It's a trap
+description_english:Have you made some trapdoors yet?
+description_success_english:There you go; no more accidentally falling down ladders or other holes. Let's decorate the home a bit more. To do that we'll hang some paintings on the walls. Paintings are made by placing a piece of wool in the very center of your workbench and then eight sticks all around the outside of it. Let me see what you can do.
+description_refuse_english:You life will forever be without art.
+steprequiredplayertag:minecraftia_general11
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general12
+requiredgood:trapdoor,2
+rewardgood:trapdoor,2
+rewardreputation:32
+
+step:new
+label_english:A work of art
+description_english:Do you have a painting to show me?
+description_success_english:Now won't that just brighten up your house. Similarly you can hang various other things on your walls with item frames. An item frame is made the same way as a painting, except instead of wool in the center it's a piece of leather. Once you hang it on a wall you can put something in it. Why don't you make me and item frame now?
+description_refuse_english:No trophies to hang yet?
+steprequiredplayertag:minecraftia_general12
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general13
+requiredgood:painting,1
+rewardgood:painting,1
+rewardreputation:32
+
+step:new
+label_english:Frame it on the wall
+description_english:Have you crafted an item frame?
+description_success_english:Look at that. Now you can hang all your trophies on the wall. Well, I think that's all I have for you right now. Come back and see me again some time.
+description_refuse_english:Good luck to you then.
+steprequiredplayertag:minecraftia_general13
+villager:startvillager
+duration:2048
+setplayertagsuccess:minecraftia_general_complete
+requiredgood:item_frame,1
+rewardgood:item_frame,1
+rewardreputation:64

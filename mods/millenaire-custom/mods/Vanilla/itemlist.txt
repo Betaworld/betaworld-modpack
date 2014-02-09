@@ -1,0 +1,119 @@
+//Note pour les utilisateurs de Windows: si vous voyez le fichier entier sur une seule ligne, ouvrez-le avec PSPAd ou UltraEdit plutôt que Notepad
+
+//Clé;id de l'objet;meta;nom (indificatif seulement)
+//Les id d'objets commencant par mln auront le numéro de la série d'objets Millénaire ajouté (ex: mln0 est en fait 1515+0 par défaut)
+
+//Tout fichier text mit dans ce dossier peut contenir de nouvelles définitions d'objets, y compris venant d'autres mods
+
+//Note to Windows users: if you see the entire file in one line, open it using PSPad or UltraEdit instead of Notepad
+
+//Item key;item id;item meta;label (indicative only)
+//Item ids starting with mln will have the item range value added to them; i.e. mln0 is actually 0+1515 (by default)
+
+glowstone_dust;348;0;Glowstone Dust
+blaze_powder;377;0;Blaze Powder
+oak_leaves;18;0;Oak Leaves
+pine_leaves;18;1;Pine Leaves
+birch_leaves;18;2;Birch Leaves
+jungle_leaves;18;3;Jungle Leaves
+lily_pad;111;0;Lily Pad
+sugar;353;0;Sugar
+emerald;388;0;Emerald
+chiseled stone brick;98;3;Chiseled Stone Brick
+workbench;58;0;Crafting Table
+enchantment_table;116;0;Enchantment Table
+snowblock;80;0;Snow
+stick;280;0;Stick
+gold_nugget;371;0;Gold Nugget
+eye_of_ender;381;0;Eye of Ender
+ice;79;0;Ice
+golden_apple;322;0;Golden Apple
+golden_apple_enchanted;322;1;Golden Apple
+magma_cream;378;0;Magma Cream
+netherrack;87;0;Netherrack
+blaze_rod;369;0;Blaze Rod
+apple;260;0;Apple
+charcoal;263;1;Charcoal
+bottle_o_enchanting;384;0;Bottle o' Enchanting
+glowstone;89;0;Glowstone
+bed;355;0;Bed
+torch;50;0;Torch
+stone_slab;44;0;Stone Slab
+wooden_slab;126;0;Wooden Slab
+wooden_stairs;53;0;Wooden Stairs
+sign;323;0;Sign
+chest;54;0;Chest
+wooden_door;324;0;Wooden Door
+ladder;65;0;Ladder
+fence;85;0;Fence
+fence_gate;107;0;Fence Gate
+trapdoor;96;0;Trapdoor
+item_frame;389;0;Item Frame
+furnace;61;0;Furnace
+baked_potato;393;0;Baked Potato
+pumpkin_pie;400;0;Pumpkin Pie
+written_book;387;0;Written Book
+fishing_rod;346;0;Fishing Rod
+boat;333;0;Boat
+glass_pane;102;0;Glass Pane
+brick;336;0;Brick
+smooth_sandstone;24;2;Smooth Sandstone
+chiseled_sandstone;24;1;Chiseled Sandstone
+iron_bars;101;0;Iron Bars
+flower_pot;390;0;Flower Pot
+jack_o_lantern;91;0;Jack-o-lantern
+jukebox;84;0;Jukebox
+anvil;145;0;Anvil
+carrot_on_a_stick;398;0;Carrot on a Stick
+map;358;0;Map
+empty_map;395;0;Empty Map
+minecart;328;0;Minecart
+rail;66;0;Rail
+minecart_with_chest;342;0;Minecart with Chest
+minecart_with_furnace;343;0;Minecart with Furnace
+minecart_with_tnt;407;0;Minecart with TNT
+wooden_button;143;0;Wooden Button
+stone_button;77;0;Stone Button
+wooden_pressure_plate;72;0;Wooden Pressure Plate
+stone_pressure_plate;70;0;Stone Pressure Plate
+lever;69;0;Lever
+redstone_torch;76;0;Redstone Torch
+tripwire_hook;131;0;Tripwire Hook
+light_pressure_plate;147;0;Light Pressure Plate
+heavy_pressure_plate;148;0;Heavy Pressure Plate
+redstone_repeater;356;0;Redstone Repeater
+detector_rail;28;0;Detector Rail
+powered_rail;27;0;Powered Rail
+note_block;25;0;Note Block
+dispenser;23;0;Dispenser
+piston;33;0;Piston
+sticky_piston;29;0;Sticky Piston
+trapped_chest;146;0;Trapped Chest
+hopper;154;0;Hopper
+dropper;158;0;Dropper
+activator_rail;157;0;Activator Rail
+cake_item;354;0;Cake
+enchanted_book;403;0;Enchanted Book
+skeleton_head;397;0;Skeleton Head
+wither_skeleton_head;397;1;Wither Skeleton Head
+zombie_head;397;2;Zombie Head
+human_head;397;3;Human Head
+creeper_head;397;4;Creeper Head
+nether_brick_item;405;0;Nether Brick
+nether_brick_block;112;0;Block of Nether Brick
+quartz_block;155;0;Block of Quartz
+quartz_chiseled;155;1;Chiseled Quartz
+quartz_pillar_vertical;155;2;Quartz Pillar
+quartz_pillar_northsouth;155;3;Quartz Pillar
+quartz_pillar_eastwest;155;4;Quartz Pillar
+redstone_lamp;123;0;Redstone Lamp
+redstone_comparator;404;0;Redstone Comparator
+daylight_sensor;151;0;Daylight Sensor
+firework_rocket;401;0;Firework Rocket
+firework_star;402;0;Firework Star
+brewing_stand;379;0;Brewing Stand
+cauldron;380;0;Cauldron
+ender_chest;130;0;Ender Chest
+hay_bale;170;0;Hay Bale
+hardened_clay;172;0;Hardened Clay
+lead;420;0;Lead

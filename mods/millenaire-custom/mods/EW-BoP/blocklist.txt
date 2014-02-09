@@ -1,0 +1,51 @@
+//special tags:
+//hard-coded behaviour based on the name
+//then -1, then no value counts until the colour one
+
+//simple tags:
+//name is only indicative
+//first value after is the blockId, second the damage value
+//third whether it should be placed after the other blocks
+mud;160;0;false;18/0/1
+quicksand_bop;160;1;false;18/0/11
+hardsand;167;0;false;18/0/2
+ashblock;163;0;false;10/0/19
+ashstone;164;0;false;18/0/20
+smolderinggrass;169;1;false;18/0/50
+
+
+//BoP Woods 
+acaciawood_h_ns;1933;8;false;18/0/3
+acaciawood_h_ew;1933;4;false;18/0/4
+acaciawood_v;1933;0;false;18/0/5
+acaciaunknown;1933;11;false;18/150/6
+acaciaplanks;1947;0;false;18/0/7
+deadwood_v;1935;2;false;18/0/12
+deadwood_h_ns;1935;10;false;18/0/13
+//deadwood_h_ew;1925;4;false;18/0/14
+darkwood_v;1933;2;false;18/0/21
+darkwood_h_ns;1933;10;false;18/0/22
+darkwood_h_ew;1933;6;false;18/0/23
+darkwoodplanks;1947;2;false;18/0/24
+darkwoodstairs0;1954;0;false;18/0/25
+darkwoodstairs1;1954;1;false;18/0/26
+darkwoodstairs2;1954;2;false;18/0/27
+darkwoodstairs3;1954;3;false;18/0/28
+darkwoodslab;1949;10;false;18/0/29
+
+
+//grasses/plants
+mediumgrass;1925;2;false;18/0/8
+dampgrass;1925;11;false;18/0/9
+wheatgrass;1925;10;false;18/0/10
+deathbloom;1921;2;false;18/0/51
+thorns;1920;5;false;18/0/52
+flatmushroom;1967;4;false;18/0/53
+poisonivy;1925;7;false;18/0/54
+
+//vines
+treemoss0;1932;1;false;18/0/70
+treemoss1;1932;2;false;18/0/71
+treemoss2;1932;4;false;18/0/72
+treemoss3;1932;8;false;18/0/73
+              

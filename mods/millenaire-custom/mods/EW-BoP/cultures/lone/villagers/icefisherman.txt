@@ -1,0 +1,20 @@
+native_name=Ice Fisherman
+gender=male
+familyNameList=inuit_family_names
+firstNameList=inuit_men_names
+
+texture=/textures/entity/byzanz/male/byz.peasant.A.png
+
+clothes=free,/textures/entity/byzanz/male/clothes/byz.farmer.1.A.png
+clothes=free,/textures/entity/byzanz/male/clothes/byz.farmer.1.B.png
+
+goal=fish
+goal=goalcookfish
+goal=chat
+goal=gorest
+
+toolneededclass=meleeweapons
+
+baseAttackStrength=3
+tag=helpInAttacks
+experiencegiven=2

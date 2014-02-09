@@ -1,0 +1,97 @@
+minreputation:0
+chanceperhour:1
+maxsimultaneous:1
+definevillager:key=startvillager,type=minecraftia/wheatfarmerfemale,type=minecraftia/wheatfarmermale,type=minecraftia/carrotfarmerfemale,type=minecraftia/carrotfarmermale,type=minecraftia/potatofarmerfemale,type=minecraftia/potatofarmermale,requiredtag=minecraftia_farmer
+forbiddenplayertag:minecraftia_farming_advanced1
+requiredplayertag:minecraftia_farming_complete
+requiredplayertag:minecraftia_livestock_complete
+
+step:new
+label_english:The wild ones
+description_english:Learning a lot? Good. Now I wanted to let you know about some more exotic crops that you will sometimes see around. Let's start with sugar cane. Sugar cane grows next to water and can be up to four meters tall. When harvesting, you only need to take the top part; you can leave the bottom planted and it will continue to grow again. Sugar cane can be refined into sugar by using your workbench. Sugar is used in making pies and cakes. We don't grow it here in the village so I don't have any to show you. Could you find some for me? And then maybe bring me some sugar?
+description_success_english:Thanks for going out of your way to find this for me.
+description_refuse_english:You'll be back.
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_farming_advanced1
+
+step:new
+label_english:Sugar baby
+description_english:Did you manage to find some sugar cane?
+description_success_english:Oh you found some sugar cane. How nice. We'll make use of it later. Our next exotic ingredient is cocoa. Cocoa gows on the sides of jungle trees, and as you can see, we don't have a cocoa farm. Cocoa beans are used in making cookies, so if you bring me some I can make you cookies. Cookies are made by placing one bundle of wheat, one cocoa bean, and another bundle of wheat all in a row in your workbench. Can you find some cocoa and make some cookies for me?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_farming_advanced1
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_farming_advanced2
+requiredgood:sugarcane,1
+requiredgood:sugar,1
+rewardgood:sugarcane,1
+rewardgood:sugar,1
+rewardreputation:32
+
+step:new
+label_english:Cookie monster
+description_english:Do you have cookies?
+description_success_english:I think cocoa is the best tasting crop there is. Here's some extra cookies for you. Let's move on to pumkins and melons. Pumpkins and melons need water to grow but they don't grow like wheat, potatoes, or carrots. When planting a pumpkin or melon make sure to leave some dirt next to it as it will grow a stem and drop the fruit in an adjacent spot. Pumpkins can be made into pie when placed in a workbench with sugar and an egg. You can also dig out the seeds of pumpkins and melons using your workbench. See if you can find some pumpkins and make me a pie.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_farming_advanced2
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_farming_advanced3
+requiredgood:dye_brown,1
+requiredgood:cookie,8
+rewardgood:cookie,16
+rewardreputation:32
+
+step:new
+label_english:Eat a Pi
+description_english:Did you bake a pie for me?
+description_success_english:There's always time for pie. Now let's talk about some food you can forage. Apples are a good snack to tide you over while hunting in the woods. They will fall rarely from oak trees. If you want to harvest apples, try planting an oak tree farm. Can you find me an apple?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_farming_advanced3
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_farming_advanced4
+requiredgood:pumpkin_pie,1
+rewardgood:pumpkin_pie,1
+rewardreputation:32
+
+step:new
+label_english:An apple a day
+description_english:Find any apples?
+description_success_english:Oh, you found some; look at that! There's one more crop I think you should know about. Mushrooms. Mushrooms grow in dark caves and shady areas in swamps and jungles. There are two kinds of mushrooms, red and brown. You can make mushroom stew by taking one each of these mushrooms and crafting them with a bowl at your workbench. A bowl is made with three wooden planks placed in a 'V' shape at your workbench. Can you go forage some mushrooms and make a stew?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_farming_advanced4
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_farming_advanced5
+requiredgood:apple,1
+rewardgood:apple,1
+rewardreputation:32
+
+step:new
+label_english:Fungus among us
+description_english:Did you cook me up some mushroom stew?
+description_success_english:A nice bowl of stew. Your food knowledge is coming along nicely. Now I'd like to explain cactus farming to you. Cacti are not for eating but they do have other uses. As you might have guessed, cacti only grow in desert on sand. They also have prickly spines which will harm you, or anything else, if you run into them. This makes them a good replacement for fences if you are only concerned about keeping things out. The proper way to farm cacti is on sand with nothing else on any side of them - they need their space. Can you find a desert and bring back some cactus for me?
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_farming_advanced5
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_farming_advanced6
+requiredgood:bowlsoup,1
+rewardgood:bowlsoup,1
+rewardreputation:32
+
+step:new
+label_english:A prickly plant
+description_english:Have you some cactus?
+description_success_english:Ahh, good. There is not much more I can teach you. Let me know if you find any other exotic crops.
+description_refuse_english:You'll be back.
+steprequiredplayertag:minecraftia_farming_advanced6
+villager:startvillager
+duration:3072
+setplayertagsuccess:minecraftia_farming_advanced_complete
+requiredgood:cactus,3
+rewardgood:cactus,3
+rewardreputation:128

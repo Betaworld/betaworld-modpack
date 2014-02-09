@@ -1,0 +1,14 @@
+//name, selling price, buying price, reserved quantity, target quantity, foreign merchant price, auto-generated, needed equipment(deprecated), minimum reputation
+fishraw,5,3,5,0,0,false,,0,tradehelp.genericfoodraw
+fishcooked,10,5,20,20,0,false,,0,tradehelp.genericfood
+fishing_rod,7,5,10,10,0,false,,0,tradehelp.generictools
+//saddle,0,0,0,0,0,false,,0,tradehelp.generictools
+//lead,0,0,0,0,0,false,,0,tradehelp.generictools
+//stick,0,0,0,0,0,false,,0,tradehelp.generictools
+//jack_o_lantern,0,0,0,0,0,false,,0,tradehelp.generictools
+//blaze_rod,0,0,0,0,0,false,,0,tradehelp.generictools
+//skeleton_head,0,0,0,0,0,false,,0,tradehelp.generictools
+//glowstone_dust,0,0,0,0,0,false,,0,tradehelp.generictools
+//golden_apple,0,0,0,0,0,false,,0,tradehelp.generictools
+//bottle_o_enchanting,0,0,0,0,0,false,,0,tradehelp.generictools
+//enchanted_book,0,0,0,0,0,false,,0,tradehelp.generictools

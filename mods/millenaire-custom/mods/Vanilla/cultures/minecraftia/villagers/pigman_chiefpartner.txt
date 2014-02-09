@@ -1,0 +1,23 @@
+native_name=Village Chief Wife
+gender=female
+familyNameList=family_names
+firstNameList=female_first_names
+malechild=pigman_boy
+femalechild=pigman_girl
+health=40
+tag=seller
+
+texture=/textures/entity/minecraftia/pigman_chiefpartner0.png
+
+goal=gorest
+goal=goDrink
+goal=patrol
+goal=huntmonster
+
+goal=gosocialise
+goal=chat
+
+tag=helpInAttacks
+startingInv=steelsword,1
+defaultweapon=steelsword
+experiencegiven=20

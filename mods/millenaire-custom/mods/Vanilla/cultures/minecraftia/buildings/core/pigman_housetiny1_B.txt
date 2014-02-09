@@ -1,0 +1,1 @@
+priority:50;max:4;native:Tiny House;around:4;startLevel:-1;orientation:3;width:6;length:7;female:pigman_villagerfemale;pathlevel:1

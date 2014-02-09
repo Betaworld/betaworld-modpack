@@ -1,0 +1,4 @@
+villager.greeting=Hello, $name!
+villager.GoPlay=I think I'll go play outside.
+villager.gorest=Another day of being alive.
+villager.calltoarms=Monsters are attacking! Kill them!

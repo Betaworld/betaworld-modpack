@@ -1,0 +1,25 @@
+native_name=Village Chief
+gender=male
+familyNameList=family_names
+firstNameList=male_first_names
+tag=chief
+health=60
+
+texture=/textures/entity/minecraftia/pigman_chief0.png
+texture=/textures/entity/minecraftia/pigman_chief1.png
+
+goal=gorest
+goal=goDrink
+goal=patrol
+goal=huntmonster
+
+goal=gosocialise
+goal=chat
+
+tag=helpInAttacks
+startingInv=steelsword,1
+startingInv=steelboots,1
+startingInv=steelchest,1
+startingInv=steellegs,1
+defaultweapon=steelsword
+experiencegiven=20

@@ -1,0 +1,93 @@
+name:Minecraftia Plains Village
+weight:10
+radius:80
+carriesraid:false
+biome:plains
+biome:ice plains
+
+//extraBiomes mod
+biome:green hills
+biome:meadow
+biome:savanna
+biome:shrubland
+biome:tundra
+
+//biomes o plenty mod
+biome:chaparral
+biome:field
+biome:grassland
+biome:heathland
+biome:meadow
+biome:outback
+biome:pasture
+biome:prairie
+biome:savanna
+biome:scrubland
+biome:shrubland
+
+
+//path materials
+pathmaterial:pathdirt
+pathmaterial:pathgravel
+pathmaterial:pathslabs
+
+//starting buildings:
+centre:townhall
+start:forge
+start:church
+start:library
+start:butcher
+start:housecarrot
+start:housepotato
+start:housewheat
+start:housecarrotlarge
+start:housepotatolarge
+start:housewheatlarge
+start:housetiny1
+start:housetiny2
+start:housetiny3
+start:housetiny4
+start:lamppost
+start:well
+
+//player buildings
+player:playerplotlarge
+player:playerhouselarge
+
+//to be built in priority
+core:housecarrot
+core:housepotato
+core:housewheat
+
+//to be built after the core ones
+
+//never to be built
+never:desert_townhall
+never:desert_butcher
+never:desert_church
+never:desert_forge
+never:desert_housecarrot
+never:desert_housecarrotlarge
+never:desert_housepotato
+never:desert_housepotatolarge
+never:desert_housewheat
+never:desert_housewheatlarge
+never:desert_housetiny1
+never:desert_housetiny2
+never:desert_housetiny3
+never:desert_housetiny4
+never:desert_library
+never:desert_well
+never:desert_playerplotlarge
+never:desert_playerhouselarge
+never:pigman_butcher
+never:pigman_church
+never:pigman_forge
+never:pigman_housecarrot
+never:pigman_housecarrotlarge
+never:pigman_housetiny1
+never:pigman_housetiny2
+never:pigman_housetiny3
+never:pigman_housetiny4
+never:pigman_library
+never:pigman_townhall
