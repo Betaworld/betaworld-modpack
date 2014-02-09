@@ -1,5 +1,7 @@
 # Betaworld Modpack
 
+![Modpack v0.0.1](http://img.shields.io/badge/modpack-0.0.1-brightgreen.svg) ![Minecraft v1.6.4](http://img.shields.io/badge/minecraft-1.6.4-brightgreen.svg)
+
 ## A Special Thank You To The Mod Developers
 
 Without amazing mod developers that are willing to share their work so that we can have fun, there would be no mod packs as we know them, and there certainly would be no Betaworld. Thank you, [Alexmania](http://www.minecraftforum.net/user/787282-alexmania/), [TTFTCUTS](http://www.minecraftforum.net/user/2006370-ttftcuts/), [Calclavia](https://github.com/calclavia), [Mithion](http://www.minecraftforum.net/user/1460699-mithion/), [Nuchaz](http://www.minecraftforum.net/user/1265825-nuchaz/), [Mineshopper](http://www.minecraftforum.net/user/473443-mineshopper/), [Dr.Zhark](http://www.minecraftforum.net/user/86150-drzhark/), [Annysia](http://www.minecraftforum.net/user/714477-annysia/), [SpaceToad](http://www.minecraftforum.net/user/321873-spacetoad/), [micdoodle8](http://www.minecraftforum.net/user/439942-micdoodle8/), [mDiyo](http://www.minecraftforum.net/user/479012-mdiyo/), [MamiyaOtaru](http://www.planetminecraft.com/member/mamiyaotaru/), [BalkondeurAlpha](http://www.minecraftforum.net/user/46318-balkondeuralpha/), and all other extended contributers that have made this fun place we call home, a reality.
