@@ -1,6 +1,7 @@
 # Betaworld Modpack
 
-![Modpack v0.0.1](http://img.shields.io/badge/modpack-0.0.1-brightgreen.svg) ![Minecraft v1.6.4](http://img.shields.io/badge/minecraft-1.6.4-brightgreen.svg)
+![Modpack v0.0.1](http://img.shields.io/badge/modpack-0.0.1-brightgreen.svg)
+![Minecraft v1.6.4](http://img.shields.io/badge/minecraft-1.6.4-brightgreen.svg)
 
 ## A Special Thank You To The Mod Developers
 
@@ -46,6 +47,7 @@ This modpack is designed for our custom server and website (both open-source and
 * [Atomic Science](http://calclavia.com/atomic-science/)
 * [BuildCraft](http://www.minecraftforum.net/topic/682920-164-buildcraft-421-blueprints-pipes-quarry-auto-crafting-building-engines/)
 * [Balkon's WeaponMod](http://www.minecraftforum.net/topic/211517-164forge-balkons-weaponmod-v113-now-with-flintlock-pistol/)
+* [Galacticraft](http://micdoodle8.com/mods/galacticraft)
 
 ### Magick
 
