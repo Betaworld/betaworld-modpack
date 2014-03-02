@@ -33,7 +33,7 @@ This modpack is designed for our custom server and website (both open-source and
 
 ### Building / Decoration
 
-* [BiblioCraft](www.bibliocraftmod.com)
+* [BiblioCraft](http://www.bibliocraftmod.com)
 * [Carpenter's Blocks](http://www.minecraftforum.net/topic/1790919-1516forge-carpenters-blocks-v202-slopes-stairs-and-more/)
 
 ### Wildlife / Mobs
