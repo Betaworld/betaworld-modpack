@@ -1,7 +1,6 @@
 # Betaworld Modpack
 
-![](http://img.shields.io/badge/modpack-0.0.1.alpha.4-brightgreen.svg)
-
+![](http://img.shields.io/badge/modpack-0.0.1.alpha.4-brightgreen.svg)&nbsp;
 ![](http://img.shields.io/badge/minecraft-1.6.4-brightgreen.svg)
 
 ## A Special Thank You To The Mod Developers
