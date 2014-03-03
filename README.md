@@ -103,7 +103,7 @@ With far more dangerous mobs, Betaworld needs measurably more powerful weapons. 
 
 ### Technology
 
-All great nations are built upon a foundation of strong basic technologies. These mods provide basic protection and
+All great nations are built upon a foundation of strong basic technologies. Basic technology mods include metallurgy, and hand-tool making.
 
 * [Tinker's Construct](http://www.minecraftforum.net/topic/1659892-164tinkers-construct/)
 	* **Why Tinker's Construct?**
