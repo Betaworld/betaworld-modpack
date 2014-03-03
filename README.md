@@ -28,7 +28,7 @@ To ensure that Betaworld never becomes "Just Another Modpack", and continues to 
 1. Software May Only Be Used With The Permission Of Their Respective Owner(s).
 2. Gameplay Changes Must Have A Reasonable Prospect For Fun.
 3. Additions To Gameplay Must Homogenize With Current Gameplay Implementations.
-4. Betaworld's gameplay remains focused upon it's socio-political meta-gameplay, and not on any particular mod's features.
+4. Betaworld Must Remain Focused Upon It's Socio-Political gameplay; Not Upon Any Particular Mod's Features.
 
 ### Biomes / Scenery
 
