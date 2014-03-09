@@ -150,7 +150,7 @@ Magick and Technology are tools used by individuals to fulfill their political a
 
 ### Utility
 
-Some mods don't change Betaworld itself, but provide utility to the player. In rare cases, we fall in love with a utility mod, and add it here.
+Some mods don't change Betaworld itself, but provide utility to the player. In rare cases, we fall in love with a utility mod and add it here.
 
 * [Zan's Minimap](http://www.planetminecraft.com/mod/zans-minimap/)
     * **Why Zan's Minimap?** 
