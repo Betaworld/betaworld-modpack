@@ -131,6 +131,16 @@ After mastering basic technologies, some players can choose to specialize in tec
 		* Because we think this could lead to a framework where many overworlds could be traveled to and from.
 	* **License:**
 		* "Can I use this mod in a modpack? Sure, just make sure there's a cearly visible link to my site to the public as they download the mod." ~[micdoodle8](http://www.minecraftforum.net/user/439942-micdoodle8/), Author of Galacticraft
+* [Modular Force Field System](http://www.minecraftforum.net/topic/1703498-164-modular-force-field-system-force-fields-security-systems-and-automated-construction/)
+	* **Why Modular Force Field System?**
+	    * Because it provides physical options for protecting areas that you can't claim yet.
+	    * Because it's well-designed and well-balanced
+	* **License:**
+		* "I, Calclavia, hereby give you revocable exclusive permission to use any of my mods (Atomic Science, Artillects, Basic Components, MFFS, Resonant Induction and ICBM) in your mod pack under the condition that you give me proper credit and a URL to the official download page." ~[Calclavia](https://github.com/calclavia)
+* [Universal Electricity](http://universalelectricity.com/)
+	* **Why Universal Electricity?**
+		* Because it standardizes the energy systems in various mods.
+		* This makes all of our lives easier.
 
 ### Magick
 
