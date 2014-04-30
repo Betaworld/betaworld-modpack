@@ -5,9 +5,13 @@
 
 ## A Special Thank You To The Mod Developers
 
-Without amazing mod developers that are willing to share their work so that we can have fun, there would be no mod packs as we know them, and there certainly would be no Betaworld. Thank you, [Alexmania](http://www.minecraftforum.net/user/787282-alexmania/), [TTFTCUTS](http://www.minecraftforum.net/user/2006370-ttftcuts/), [Calclavia](https://github.com/calclavia), [Mithion](http://www.minecraftforum.net/user/1460699-mithion/), [Nuchaz](http://www.minecraftforum.net/user/1265825-nuchaz/), [Mineshopper](http://www.minecraftforum.net/user/473443-mineshopper/), [Dr.Zhark](http://www.minecraftforum.net/user/86150-drzhark/), [Annysia](http://www.minecraftforum.net/user/714477-annysia/), [SpaceToad](http://www.minecraftforum.net/user/321873-spacetoad/), [micdoodle8](http://www.minecraftforum.net/user/439942-micdoodle8/), [mDiyo](http://www.minecraftforum.net/user/479012-mdiyo/), [MamiyaOtaru](http://www.planetminecraft.com/member/mamiyaotaru/), [BalkondeurAlpha](http://www.minecraftforum.net/user/46318-balkondeuralpha/), and all other extended contributers that have made this fun place we call home, a reality.
+Without amazing mod developers that are willing to share their work so that we can have fun, there would be no mod packs as we know them, and there certainly would be no Betaworld. Thank you, [Alexmania](http://www.minecraftforum.net/user/787282-alexmania/), [TTFTCUTS](http://www.minecraftforum.net/user/2006370-ttftcuts/), [Calclavia](https://github.com/calclavia), [Mithion](http://www.minecraftforum.net/user/1460699-mithion/), [Nuchaz](http://www.minecraftforum.net/user/1265825-nuchaz/), [Mineshopper](http://www.minecraftforum.net/user/473443-mineshopper/), [Dr.Zhark](http://www.minecraftforum.net/user/86150-drzhark/), [Annysia](http://www.minecraftforum.net/user/714477-annysia/), [SpaceToad](http://www.minecraftforum.net/user/321873-spacetoad/), [micdoodle8](http://www.minecraftforum.net/user/439942-micdoodle8/), [mDiyo](http://www.minecraftforum.net/user/479012-mdiyo/), [MamiyaOtaru](http://www.planetminecraft.com/member/mamiyaotaru/), [BalkondeurAlpha](http://www.minecraftforum.net/user/46318-balkondeuralpha/), [Dayanto](https://github.com/Dayanto), and all other extended contributers that have made this fun place we call home, a reality.
 
 Betaworld is built upon the work of others, and so it would not be right for us to accept donations. Instead, we encourage you to send donations directly to the authors of your favorite mods! They are the ones that did all of the really hard work, and they are the ones that your donations will be most appreciated by.
+
+## An Extra Thank You To Mojang!
+
+Without your consent to modify the immense work that you created, no mods could be written or distributed. You represent in gaming.
 
 ## Introduction
 
@@ -161,6 +165,13 @@ Magick and Technology are tools used by individuals to fulfill their political a
 ### Utility
 
 Some mods don't change Betaworld itself, but provide utility to the player. In rare cases, we fall in love with a utility mod and add it here.
+
+* [Panorama Kit](https://github.com/Dayanto/Panorama-Kit)
+	* **Why Panorama Kit?**
+		* Because it's the best tool for creating beautiful panoramic images of our world, for advertising and posterity.
+		* It is public domain code.
+	* **Licensing:**
+		* "The mod is in the public domain, so anyone is allowed to use the code however they want." ~[Dayanto](https://github.com/Dayanto)
 
 * [Zan's Minimap](http://www.planetminecraft.com/mod/zans-minimap/)
     * **Why Zan's Minimap?** 
